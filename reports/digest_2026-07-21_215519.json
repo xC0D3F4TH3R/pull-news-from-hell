@@ -1,0 +1,4051 @@
+{
+  "meta": {
+    "run_time": "2026-07-21 21:55:19 India Standard Time",
+    "window_desc": "last 24h",
+    "dedup_saved": 0,
+    "tiers": [
+      "breach",
+      "cve",
+      "daily",
+      "dev",
+      "gaming",
+      "malware",
+      "tech"
+    ],
+    "keywords": []
+  },
+  "items": [
+    {
+      "title": "CVE-2026-65007 \u2014 CVSS 9.6 (CRITICAL)",
+      "summary": "The Grav api plugin (grav-plugin-api) before 1.0.8 fails to properly authorize API key generation and revocation: the plugin intercepts the apiKeyGenerate/apiKeyRevoke admin tasks before the account-management ACL runs and authorizes the caller on only the admin.login permission\u2026",
+      "published_utc": "2026-07-21T06:49:00.910000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-65007",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-65007"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 9.6,
+      "score": 44.31845461675,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-1617 \u2014 CVSS 9.8 (CRITICAL)",
+      "summary": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in Turkmesh Communication Services Inc. Turkhotspot 5651 Loglama allows SQL Injection. This issue affects Turkhotspot 5651 Loglama: from 5.1.2 before 5.1.3.",
+      "published_utc": "2026-07-21T06:47:21.173000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-1617",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-1617"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 9.8,
+      "score": 44.310143197916666,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-64606 \u2014 CVSS 9.8 (CRITICAL)",
+      "summary": "Deserialization of untrusted data vulnerability that may allow class-registration checks to be bypassed during Java lambda deserialization. Only lambda capture class is affected This issue affects Apache Fory: from before 1.4.0. Users are recommended to upgrade to version 1.4.0,\u2026",
+      "published_utc": "2026-07-21T05:46:27.973000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64606",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64606"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 9.8,
+      "score": 44.00570986066667,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-64609 \u2014 CVSS 9.1 (CRITICAL)",
+      "summary": "Out-of-bounds read via sun.misc.Unsafe in Apache Fory. When out-of-band zero-copy deserialization is used, readAlignedVarUint() can read beyond the bounds of the underlying buffer. Out-of-band zero-copy deserialization is an opt-in feature; applications that do not use it are\u2026",
+      "published_utc": "2026-07-21T04:46:25.057000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64609",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64609"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 9.1,
+      "score": 43.7054668575,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-64608 \u2014 CVSS 9.8 (CRITICAL)",
+      "summary": "Heap type confusion and out-of-bounds read/write in the Apache Fory C++ implementation. When deserializing data in compatible mode, the field-skip paths do not correctly validate the declared field types against the actual data, so input with an inconsistent schema can cause\u2026",
+      "published_utc": "2026-07-21T04:46:24.923000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64608",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64608"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 9.8,
+      "score": 43.705455690583335,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-13439 \u2014 CVSS 9.8 (CRITICAL)",
+      "summary": "The Easy Form Builder by WhiteStudio plugin for WordPress is vulnerable to Unauthenticated Privilege Escalation to Administrator in versions up to, and including, 4.0.11 This is due to the password recovery flow using the publicly-visible session identifier ('sid') as the\u2026",
+      "published_utc": "2026-07-21T00:46:28.060000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-13439",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-13439"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 9.8,
+      "score": 42.505717101083334,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-60137: WordPress Core SQL Injection Vulnerability",
+      "summary": "WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated attacker to gain remote code execution on default WordPress installations. |\u2026",
+      "published_utc": "2026-07-21T00:00:00+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-60137",
+      "sources": [
+        {
+          "name": "CISA Known Exploited Vulnerabilities",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-60137"
+        }
+      ],
+      "is_kev": true,
+      "cvss": null,
+      "score": 42.273378767416666,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-63030: WordPress Core Interpretation Conflict Vulnerability",
+      "summary": "WordPress Core contains an interpretation conflict vulnerability that could allow an attacker to perform SQL Injection and achieve Remote Code Execution. This vulnerability can be chained with CVE-2026-60137. | Required action: Apply mitigations in accordance with vendor\u2026",
+      "published_utc": "2026-07-21T00:00:00+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-63030",
+      "sources": [
+        {
+          "name": "CISA Known Exploited Vulnerabilities",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-63030"
+        }
+      ],
+      "is_kev": true,
+      "cvss": null,
+      "score": 42.27337876725,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-0770: Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
+      "summary": "Langflow contains an inclusion of functionality from untrusted control sphere vulnerability that allows remote attackers to execute arbitrary code on affected installations. | Required action: Apply mitigations in accordance with vendor instructions, ensuring compliance with\u2026",
+      "published_utc": "2026-07-21T00:00:00+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-0770",
+      "sources": [
+        {
+          "name": "CISA Known Exploited Vulnerabilities",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-0770"
+        }
+      ],
+      "is_kev": true,
+      "cvss": null,
+      "score": 42.273378767,
+      "matches": []
+    },
+    {
+      "title": "CVE-2021-27137: DD-WRT Stack-Based Buffer Overflow Vulnerability",
+      "summary": "DD-WRT contains a stack-based buffer overflow vulnerability that could allow an unauthenticated attacker to overflow an internal buffer used by UPnP and trigger a code execution vulnerability. | Required action: Apply mitigations in accordance with vendor instructions, ensuring\u2026",
+      "published_utc": "2026-07-21T00:00:00+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2021-27137",
+      "sources": [
+        {
+          "name": "CISA Known Exploited Vulnerabilities",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2021-27137"
+        }
+      ],
+      "is_kev": true,
+      "cvss": null,
+      "score": 42.27337876675,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-64625 \u2014 CVSS 9.8 (CRITICAL)",
+      "summary": "AVideo before 29.0 contains an incomplete fix for CVE-2026-45578 where execAsync() re-wraps escaped commands in double-quoted sh -c, allowing command substitution via $() and backticks. Attackers can inject arbitrary OS commands through the Live plugin on_publish.php endpoint\u2026",
+      "published_utc": "2026-07-20T16:47:18.740000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64625",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64625"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 9.8,
+      "score": 40.10994042883333,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-52656 \u2014 CVSS 9.8 (CRITICAL)",
+      "summary": "An issue in SJCAM AllWinner Tech products SJ4000-Air V1.4C and before and Whitelabel based v.1.4C and before allows an attacker to execute arbitrary code via a crafted FEX file",
+      "published_utc": "2026-07-20T16:47:15.900000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-52656",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-52656"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 9.8,
+      "score": 40.10970376075,
+      "matches": []
+    },
+    {
+      "title": "CVE-2024-51315 \u2014 CVSS 9.8 (CRITICAL)",
+      "summary": "The Tenda TX9 V22.03.02.20 firmware has a stack overflow vulnerability in the sub_425964 function of the file /goform/SetOnlineDevName",
+      "published_utc": "2026-07-20T16:47:03.550000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-51315",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-51315"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 9.8,
+      "score": 40.108674589833335,
+      "matches": []
+    },
+    {
+      "title": "CVE-2024-51314 \u2014 CVSS 9.8 (CRITICAL)",
+      "summary": "The Tenda TX9 V22.03.02.20 firmware has a stack overflow vulnerability in the sub_424CE0 function of the file /goform/setMacFilterCfg.",
+      "published_utc": "2026-07-20T16:47:03.440000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-51314",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-51314"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 9.8,
+      "score": 40.108665423,
+      "matches": []
+    },
+    {
+      "title": "CVE-2024-51312 \u2014 CVSS 9.8 (CRITICAL)",
+      "summary": "The Tenda TX9 V22.03.02.20 firmware has a stack overflow vulnerability in the sub_42EEE0 function of the file /goform/SetStaticRouteCfg.",
+      "published_utc": "2026-07-20T16:47:02.500000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-51312",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-51312"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 9.8,
+      "score": 40.1085870895,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-1771 \u2014 CVSS 7.2 (HIGH)",
+      "summary": "The MapSVG plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the SVGFile constructor in all versions up to, and including, 8.14.0 This is due to an incorrect conditional check that prevents file validation from taking place. This\u2026",
+      "published_utc": "2026-07-21T03:46:53.947000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-1771",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-1771"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.2,
+      "score": 23.407874355333334,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-3183 \u2014 CVSS 7.1 (HIGH)",
+      "summary": "Zohocorp ManageEngine ADSelfService Plus versions before 6524 are vulnerable to Multi Factor Authentication Bypass.",
+      "published_utc": "2026-07-21T02:46:33.880000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-3183",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-3183"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.1,
+      "score": 23.10620210425,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-8082 \u2014 CVSS 7.5 (HIGH)",
+      "summary": "The bpost-shipping-platform WordPress plugin before 3.2.3 does not properly sanitize a parameter before using it in a SQL query during WooCommerce order submission, allowing unauthenticated attackers to perform time-based blind SQL injection on stores running this\u2026",
+      "published_utc": "2026-07-21T01:46:34.320000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-8082",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-8082"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.5,
+      "score": 22.806238770666667,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-11767 \u2014 CVSS 8.8 (HIGH)",
+      "summary": "The Free Builder for Elementor WordPress plugin before 1.6.7 does not sanitise submitted contact form field values before storing them and outputting them in the admin dashboard, allowing unauthenticated attackers to perform Stored Cross-Site Scripting attacks that execute when\u2026",
+      "published_utc": "2026-07-21T01:46:33.567000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-11767",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-11767"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 8.8,
+      "score": 22.806176019333332,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-6952 \u2014 CVSS 7.2 (HIGH)",
+      "summary": "A post-authentication command injection vulnerability in the \"LogServer\" field of the syslog component in Zyxel AX7501-B1 firmware versions through 5.17(ABPC.7.2)C0 could allow an authenticated attacker with administrator privileges to execute OS commands on an affected device.",
+      "published_utc": "2026-07-20T21:46:42.610000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-6952",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-6952"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.2,
+      "score": 21.606929599083333,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-16332 \u2014 CVSS 7.3 (HIGH)",
+      "summary": "A vulnerability was detected in D-Link DNS-320 1.0.2. This impacts an unknown function of the file /mydlink/multi_uploadify.php. Performing a manipulation of the argument Filedata[] results in unrestricted upload. The attack is possible to be carried out remotely. The exploit is\u2026",
+      "published_utc": "2026-07-20T21:46:40.833000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16332",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16332"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.3,
+      "score": 21.606781515083334,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-16331 \u2014 CVSS 7.3 (HIGH)",
+      "summary": "A security vulnerability has been detected in D-Link DNS-320 1.0.2. This affects an unknown function of the file /web/function/save_ajax.php. Such manipulation of the argument Malicious Handler leads to unrestricted upload. The attack can be executed remotely. The exploit has\u2026",
+      "published_utc": "2026-07-20T19:46:29.450000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16331",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16331"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.3,
+      "score": 21.0058329315,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-16330 \u2014 CVSS 7.3 (HIGH)",
+      "summary": "A weakness has been identified in D-Link DNS-320 1.0.2. The impacted element is an unknown function of the file /web/jquery/uploader/uploadify.php. This manipulation of the argument https:/ucn9h68n9289.feishu.cn/wiki/JJcTwHz7aiKeq6kSItMcoeSUnMc?from=from_copylink causes\u2026",
+      "published_utc": "2026-07-20T19:46:29.280000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16330",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16330"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.3,
+      "score": 21.005818764583335,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-16329 \u2014 CVSS 7.3 (HIGH)",
+      "summary": "A vulnerability was identified in D-Link DNS-320 1.0.2. Impacted is an unknown function of the file /photo_center/php/uploadify.php. The manipulation of the argument Malicious Handler leads to unrestricted upload. The attack may be initiated remotely. The exploit is publicly\u2026",
+      "published_utc": "2026-07-20T19:46:29.117000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16329",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16329"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.3,
+      "score": 21.005805181083332,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-55833 \u2014 CVSS 7.5 (HIGH)",
+      "summary": "Netty is a network application framework for development of protocol servers and clients. Prior to 4.1.136.Final and 4.2.16.Final, Netty SPDY header decoding continues inflating zlib-compressed header blocks after the raw header parser has exceeded `maxHeaderSize` and marked the\u2026",
+      "published_utc": "2026-07-20T18:47:35.537000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-55833",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-55833"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.5,
+      "score": 20.711340180583335,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-55831 \u2014 CVSS 7.5 (HIGH)",
+      "summary": "Netty is a network application framework for development of protocol servers and clients. Prior to 4.1.136.Final and 4.2.16.Final, Netty's SPDY SETTINGS decoder accepts a peer-declared SETTINGS entry count up to the 24-bit frame-length limit and materializes every unique setting\u2026",
+      "published_utc": "2026-07-20T18:47:35.383000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-55831",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-55831"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.5,
+      "score": 20.711327347,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-16327 \u2014 CVSS 7.3 (HIGH)",
+      "summary": "A vulnerability was determined in D-Link DNS-320 1.0.2. This issue affects some unknown processing of the file /web/web_file/upload.php. Executing a manipulation of the argument File can lead to unrestricted upload. The attack can be launched remotely. The exploit has been\u2026",
+      "published_utc": "2026-07-20T18:46:53.570000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16327",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16327"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.3,
+      "score": 20.707842930166667,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-15905 \u2014 CVSS 7.8 (HIGH)",
+      "summary": "Use after free in Aura in Google Chrome prior to 150.0.7871.128 allowed a local attacker to potentially exploit heap corruption via a malicious file. (Chromium security severity: High)",
+      "published_utc": "2026-07-20T17:46:56.300000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15905",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15905"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.8,
+      "score": 20.408070429916666,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-64624 \u2014 CVSS 7.8 (HIGH)",
+      "summary": "FreeRDP before 3.28.0 treats lines beginning with forward slash in RDP files as raw command-line options, exposing the entire CLI parser surface to untrusted files. Attackers can craft malicious RDP files with /rdp2tcp, /cert:ignore, or /drive options to execute arbitrary\u2026",
+      "published_utc": "2026-07-20T16:47:18.600000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64624",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64624"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.8,
+      "score": 20.109928761916667,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-55550 \u2014 CVSS 7.1 (HIGH)",
+      "summary": "NextCRM is open-source customer relationship management (CRM) software. The CRM product catalog is an organization-wide business object. Normal application server actions restrict product creation, update, and deletion to `manager` and `admin` roles. However, in version 0.12.1,\u2026",
+      "published_utc": "2026-07-20T16:47:16.543000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-55550",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-55550"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.1,
+      "score": 20.109757344416668,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-55544 \u2014 CVSS 7.6 (HIGH)",
+      "summary": "NextCRM is open-source customer relationship management (CRM) software. In version 0.12.1, the MCP campaign tools expose campaign read and write operations over the network using user-generated Bearer API tokens (`nxtc__...`). The application has an authorization model that\u2026",
+      "published_utc": "2026-07-20T16:47:16.407000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-55544",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-55544"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.6,
+      "score": 20.109746010916666,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-51031 \u2014 CVSS 7.5 (HIGH)",
+      "summary": "FlareSolverr before version 3.4.7 contains a server-side request forgery (SSRF) vulnerability in the /v1 API endpoint. This allows a remote attacker to obtain sensitive information",
+      "published_utc": "2026-07-20T16:47:15.663000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-51031",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-51031"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.5,
+      "score": 20.109684010333332,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-47255 \u2014 CVSS 8.2 (HIGH)",
+      "summary": "AgenticMail gives AI agents real email addresses and phone numbers. @agenticmail/api prior to version 0.9.32 and @agenticmail/core prior to version 0.9.10 had weakness related to validation and and binding of inactive-agent hour filtering; storage SQL identifier validation;\u2026",
+      "published_utc": "2026-07-20T16:47:15.403000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-47255",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-47255"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 8.2,
+      "score": 20.10966234325,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-16324 \u2014 CVSS 7.3 (HIGH)",
+      "summary": "A vulnerability was identified in Metasoft \u7f8e\u7279\u8f6f\u4ef6 MetaCRM up to 6.4.0 Beta06. The impacted element is an unknown function of the file /business/qnaire/upload.jsp. Such manipulation of the argument File leads to unrestricted upload. The attack may be launched remotely. The exploit\u2026",
+      "published_utc": "2026-07-20T16:47:13.417000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16324",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16324"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.3,
+      "score": 20.109496840833334,
+      "matches": []
+    },
+    {
+      "title": "CVE-2024-51316 \u2014 CVSS 7.5 (HIGH)",
+      "summary": "The Tenda TX9 V22.03.02.20 firmware has a denial of service vulnerability in the update_dev_name function of the file /goform/SetOnlineDevName",
+      "published_utc": "2026-07-20T16:47:03.657000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-51316",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-51316"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 7.5,
+      "score": 20.108683506666665,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-64628 \u2014 CVSS 5.4 (MEDIUM)",
+      "summary": "Grav contains a stored cross-site scripting vulnerability in shortcode-core attribute handlers where the XSS detection scan only matches payloads containing literal angle brackets, allowing shortcode parameters to bypass validation. Attackers with admin.pages permission can\u2026",
+      "published_utc": "2026-07-21T06:49:00.633000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64628",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64628"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 5.4,
+      "score": 12.318431533166667,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-59845 \u2014 CVSS 5.3 (MEDIUM)",
+      "summary": "A flaw was found in libssh. When ProxyCommand is used, an unchecked fork() failure can be stored as process ID -1; during cleanup, signals may then be sent across the caller's accessible process tree, leading to local denial of service.",
+      "published_utc": "2026-07-21T06:48:58.103000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59845",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59845"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 5.3,
+      "score": 12.318220699,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-59844 \u2014 CVSS 6.5 (MEDIUM)",
+      "summary": "A flaw was found in libssh. A remote authenticated client can issue SSH_FXP_READ requests with an arbitrarily large length, causing a libssh SFTP server to allocate excessive memory and potentially exhaust it through repeated requests.",
+      "published_utc": "2026-07-21T06:48:57.973000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59844",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59844"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.5,
+      "score": 12.318209865333333,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-59843 \u2014 CVSS 6.5 (MEDIUM)",
+      "summary": "A flaw was found in libssh. A remote authenticated peer can advertise a zero maximum packet size in SSH_MSG_CHANNEL_OPEN, causing later channel writes to loop indefinitely and consume CPU, leading to denial of service.",
+      "published_utc": "2026-07-21T06:48:57.860000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59843",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59843"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.5,
+      "score": 12.3182004485,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-16461 \u2014 CVSS 6.5 (MEDIUM)",
+      "summary": "A stack-based buffer overflow was found in rpcbind's rpcinfo utility. In rpcbdump() short mode (used by `rpcinfo -s`), version numbers from a remote RPCBPROC_DUMP reply are written into a fixed-size stack buffer without bounds checking. A user or administrator who runs `rpcinfo\u2026",
+      "published_utc": "2026-07-21T06:47:21.030000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16461",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16461"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.5,
+      "score": 12.310131281,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-1372 \u2014 CVSS 4.3 (MEDIUM)",
+      "summary": "The Tutor LMS Elementor Addons plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and including, 4.0.0 This is due to missing capability checks on the `activate_tutor_free()` and `activate_elementor_free()` functions registered as `admin_action_*`\u2026",
+      "published_utc": "2026-07-21T03:46:53.813000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-1372",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-1372"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 4.3,
+      "score": 11.407863188416666,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-15370 \u2014 CVSS 6.7 (MEDIUM)",
+      "summary": "A flaw was found in libssh. During SFTP server directory listing, the longname field is constructed with unsafe concatenation into a fixed-size stack buffer. When a client causes the server to list attacker-controlled filenames, sufficiently long names can overflow that stack\u2026",
+      "published_utc": "2026-07-21T03:46:53.683000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15370",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15370"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.7,
+      "score": 11.407852354833333,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-15145 \u2014 CVSS 6.4 (MEDIUM)",
+      "summary": "The Essential Addons for Elementor \u2013 Popular Elementor Templates & Widgets plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Fancy Text Widget in all versions up to, and including, 6.6.11 due to insufficient input sanitization and output escaping. This makes\u2026",
+      "published_utc": "2026-07-21T03:46:53.530000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15145",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15145"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.4,
+      "score": 11.407839604583334,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-14185 \u2014 CVSS 4.3 (MEDIUM)",
+      "summary": "The WPBot WordPress plugin before 8.2.0 does not perform a capability or nonce check in one of its retrieval-augmented-generation settings handlers, allowing authenticated users with subscriber-level access to modify the WPBot WordPress plugin before 8.2.0's configuration.",
+      "published_utc": "2026-07-21T01:46:34.213000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-14185",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-14185"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 4.3,
+      "score": 10.80622985375,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-14184 \u2014 CVSS 5.4 (MEDIUM)",
+      "summary": "The Academy LMS WordPress plugin before 3.8.1 does not verify ownership of a user-supplied user identifier in several of its lesson AJAX handlers, allowing authenticated users with subscriber-level access to read and modify other users' lesson notes and mark other users' lesson\u2026",
+      "published_utc": "2026-07-21T01:46:34.120000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-14184",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-14184"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 5.4,
+      "score": 10.8062221035,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-14183 \u2014 CVSS 4.3 (MEDIUM)",
+      "summary": "The Classified Listing WordPress plugin before 5.3.9 does not verify that the order targeted by its payment-receipt handler belongs to the requesting user, allowing authenticated users with subscriber-level access to read the payment receipt details of any other user's order.",
+      "published_utc": "2026-07-21T01:46:34.020000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-14183",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-14183"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 4.3,
+      "score": 10.80621377,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-13694 \u2014 CVSS 6.5 (MEDIUM)",
+      "summary": "The Bit Form WordPress plugin before 3.1.0 does not properly validate its workflow-trigger token once the associated transient has expired, allowing unauthenticated attackers to re-trigger a form's configured workflow actions such as notification emails and integrations.",
+      "published_utc": "2026-07-21T01:46:33.927000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-13694",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-13694"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.5,
+      "score": 10.80620601975,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-13693 \u2014 CVSS 5.9 (MEDIUM)",
+      "summary": "The Bit Form WordPress plugin before 3.1.0 does not restrict a form file-field value to a safe path before reading the file and attaching it to a notification email, allowing unauthenticated attackers to read arbitrary server files such as the WordPress configuration file.",
+      "published_utc": "2026-07-21T01:46:33.827000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-13693",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-13693"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 5.9,
+      "score": 10.806197686166666,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-3182 \u2014 CVSS 4.3 (MEDIUM)",
+      "summary": "Zohocorp ManageEngine Endpoint Central versions before 11.4.2528.34 are affected by cleartext transmission of sensitive information vulnerability.",
+      "published_utc": "2026-07-21T00:46:28.890000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-3182",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-3182"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 4.3,
+      "score": 10.505786269166666,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-16266 \u2014 CVSS 4.0 (MEDIUM)",
+      "summary": "Versions of the package mongo-object before 3.0.3 are vulnerable to Prototype Pollution via the expandKey() function in util.js. An attacker can modify the JavaScript prototype chain by supplying a crafted property path containing special keys such as __proto__.",
+      "published_utc": "2026-07-21T00:46:28.737000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16266",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16266"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 4.0,
+      "score": 10.505773518916666,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-15927 \u2014 CVSS 6.8 (MEDIUM)",
+      "summary": "A flaw was found in Red Hat Quay's repository-level mirror configuration feature. The POST and PUT handlers in endpoints/api/mirror.py accept an external_reference parameter without SSRF validation, unlike the organization-level mirror handlers which apply\u2026",
+      "published_utc": "2026-07-21T00:46:28.603000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15927",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15927"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.8,
+      "score": 10.505762352,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-15812 \u2014 CVSS 4.8 (MEDIUM)",
+      "summary": "A vulnerability was found in the internal Access Control List (ACL) subsystem of kronosnet (Version affected: <= 1.34). When the framework is explicitly configured to manage dynamic links (accepting network traffic from any IP address) without network payload encryption, the\u2026",
+      "published_utc": "2026-07-21T00:46:28.480000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15812",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15812"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 4.8,
+      "score": 10.50575210175,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-15811 \u2014 CVSS 5.8 (MEDIUM)",
+      "summary": "A vulnerability was found in kronosnet's (version <=1.34) cryptographic configuration management. The framework does not correctly zero-out or wipe sensitive memory segments after executing changes to its cryptographic configuration. This omission leaves raw encryption keys\u2026",
+      "published_utc": "2026-07-21T00:46:28.343000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15811",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15811"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 5.8,
+      "score": 10.505740684916667,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-15782 \u2014 CVSS 4.9 (MEDIUM)",
+      "summary": "The WPForms \u2013 AI Form Builder for WordPress \u2013 Contact Forms, Payment Forms, Survey Form, Quiz & More plugin for WordPress is vulnerable to Stored Cross-Site Scripting via OptinMonster Integration data-sitekey Attribute in Post Content in all versions up to, and including,\u2026",
+      "published_utc": "2026-07-21T00:46:28.210000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15782",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15782"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 4.9,
+      "score": 10.505729601333332,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-15156 \u2014 CVSS 6.4 (MEDIUM)",
+      "summary": "The Essential Addons for Elementor \u2013 Popular Elementor Templates & Widgets plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Reading Progress Global Color Settings in all versions up to, and including, 6.6.11 due to insufficient input sanitization and output\u2026",
+      "published_utc": "2026-07-20T23:46:34.110000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15156",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15156"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.4,
+      "score": 10.2062212665,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-59776 \u2014 CVSS 6.8 (MEDIUM)",
+      "summary": "Missing Cryptographic Step (CWE-325) vulnerability exists in certain FeliCa IC chips shipped in or before 2017. If the vulnerability is exploited, information stored in the IC chip may be read or tampered with.",
+      "published_utc": "2026-07-20T22:46:51.480000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59776",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59776"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.8,
+      "score": 9.907668766166665,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-16336 \u2014 CVSS 4.3 (MEDIUM)",
+      "summary": "A vulnerability was found in trinodb trino 481. Affected is an unknown function of the file core/trino-main/src/main/java/io/trino/server/ExternalUriInfo.java of the component OAuth2/OIDC. Performing a manipulation of the argument redirect_uri results in open redirect. It is\u2026",
+      "published_utc": "2026-07-20T22:46:50.310000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16336",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16336"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 4.3,
+      "score": 9.907571265916667,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-63729 \u2014 CVSS 6.6 (MEDIUM)",
+      "summary": "The SyncTeX parser (synctex_parser.c) shipped with TeX Live and embedded by downstream consumers such as GNOME Evince contains a heap use-after-free vulnerability that allows attackers to crash applications or potentially execute arbitrary code by supplying a malformed .synctex\u2026",
+      "published_utc": "2026-07-20T21:46:42.470000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-63729",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-63729"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.6,
+      "score": 9.606917932166667,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-16334 \u2014 CVSS 6.3 (MEDIUM)",
+      "summary": "A vulnerability was identified in itsourcecode Hospital Management System 1.0. This vulnerability affects unknown code of the file /prescriptionorder.php. Such manipulation of the argument editid leads to sql injection. The attack can be launched remotely. The exploit is\u2026",
+      "published_utc": "2026-07-20T21:46:41.007000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16334",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16334"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.3,
+      "score": 9.606796015250001,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-63728 \u2014 CVSS 6.3 (MEDIUM)",
+      "summary": "Gitleaks prior to 8.30.1 contains a template injection vulnerability that allows attackers who can supply or influence report templates to read arbitrary environment variables and exfiltrate sensitive data by leveraging non-hermetic Sprig template functions. Attackers can craft\u2026",
+      "published_utc": "2026-07-20T18:47:48.953000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-63728",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-63728"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.3,
+      "score": 8.712458180833334,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-64626 \u2014 CVSS 6.4 (MEDIUM)",
+      "summary": "AVideo versions from commit 0dbadbca through latest master contain a server-side request forgery vulnerability in the encoder download-by-URL flow due to an unpinned retry fallback that bypasses DNS pinning validation. An authenticated attacker can supply a downloadURL that\u2026",
+      "published_utc": "2026-07-20T16:47:18.873000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64626",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64626"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.4,
+      "score": 8.109951512333334,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-57852 \u2014 CVSS 5.6 (MEDIUM)",
+      "summary": "Grav CMS scheduler-webhook plugin contains an authentication bypass vulnerability that allows unauthenticated remote attackers to trigger configured scheduled jobs by exploiting a short-circuit logic flaw in the webhook token validation. Attackers can send a single\u2026",
+      "published_utc": "2026-07-20T16:47:17.243000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-57852",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-57852"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 5.6,
+      "score": 8.109815678333334,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-51385 \u2014 CVSS 6.9 (MEDIUM)",
+      "summary": "An issue in safishamsi Open-Source GRAPHIFY v.0.3.2 through v0.4.29 allows a remote attacker to execute arbitrary code via the validate_url, safe_fetch, _build_opener, _fetch_html and _download_binary functions.",
+      "published_utc": "2026-07-20T16:47:15.773000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-51385",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-51385"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.9,
+      "score": 8.109693177166667,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-51025 \u2014 CVSS 6.1 (MEDIUM)",
+      "summary": "Cross Site Scripting vulnerability in fuint Member Marketing System <=v1.0 allows a remote attacker to execute arbitrary code via the ClientMessageController.java file",
+      "published_utc": "2026-07-20T16:47:15.553000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-51025",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-51025"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.1,
+      "score": 8.1096748435,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-47144 \u2014 CVSS 5.5 (MEDIUM)",
+      "summary": "Shamefile is a linter for undocumented linter warnings. Prior to version 0.1.7, a path traversal vulnerability in `shame next` allows an attacker-controlled `shamefile.yaml` to disclose contents of files outside the repository, one line at a time, to the terminal of a user who\u2026",
+      "published_utc": "2026-07-20T16:47:15.263000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-47144",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-47144"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 5.5,
+      "score": 8.109650676416665,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-47128 \u2014 CVSS 6.1 (MEDIUM)",
+      "summary": "nono is software that allows users to run AI agents in a zero-latency sandbox. Prior to version 0.55.0, the nono Landlock/seccomp policies allow access to local Unix domain sockets (concrete and abstract). This allows an easy sandbox escape by talking to the per-user systemd\u2026",
+      "published_utc": "2026-07-20T16:47:14.847000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-47128",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-47128"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.1,
+      "score": 8.109616009083332,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-12900 \u2014 CVSS 6.4 (MEDIUM)",
+      "summary": "The Spectra Gutenberg Blocks \u2013 Website Builder for the Block Editor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the `uagb/image` block in all versions up to, and including, 2.19.28 due to insufficient input sanitization and output escaping. This makes\u2026",
+      "published_utc": "2026-07-20T16:47:13.257000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-12900",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-12900"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 6.4,
+      "score": 8.109483507166665,
+      "matches": []
+    },
+    {
+      "title": "All Star Wars games currently in development and when they will be released",
+      "summary": "The latest news and release dates for every known Star Wars game, like Galactic Racer, Zero Company, and more.",
+      "published_utc": "2026-07-21T10:52:21+00:00",
+      "tier": "gaming",
+      "link": "https://www.polygon.com/star-wars-games-all-updates-release-dates/",
+      "sources": [
+        {
+          "name": "Polygon",
+          "link": "https://www.polygon.com/star-wars-games-all-updates-release-dates/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.535128805083334,
+      "matches": []
+    },
+    {
+      "title": "Manor Lords' next beta update adds what all video games are sorely missing: cow breeding",
+      "summary": "Anyone who knows me knows that the one frustration I come back to in games, above all else, more than yellow paint, quest markers and horrendously written dialogue, is that there just isn't enough cow breeding. Where is it? The video game industry is sorely lacking in that\u2026",
+      "published_utc": "2026-07-21T10:49:59+00:00",
+      "tier": "gaming",
+      "link": "https://www.rockpapershotgun.com/manor-lords-next-beta-update-adds-what-all-video-games-are-sorely-missing-cow-breeding",
+      "sources": [
+        {
+          "name": "Rock Paper Shotgun",
+          "link": "https://www.rockpapershotgun.com/manor-lords-next-beta-update-adds-what-all-video-games-are-sorely-missing-cow-breeding"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.523295470833333,
+      "matches": []
+    },
+    {
+      "title": "A hacker has reportedly wiped out parts of the land registry database of Romania, bringing its real-estate market to a shuddering halt",
+      "summary": "Backups are said to be on the way.",
+      "published_utc": "2026-07-21T10:49:27+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/software/security/a-hacker-has-reportedly-wiped-out-parts-of-the-land-registry-database-of-romania-bringing-its-real-estate-market-to-a-shuddering-halt/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/software/security/a-hacker-has-reportedly-wiped-out-parts-of-the-land-registry-database-of-romania-bringing-its-real-estate-market-to-a-shuddering-halt/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.520628803833333,
+      "matches": []
+    },
+    {
+      "title": "PlayStation fans are still furious about physical discs, but the data proves Sony is right to kill them",
+      "summary": "New data shows what Sony meant when it said PlayStation discs aren't selling well, with only a handful of games moving more than 100K copies this year",
+      "published_utc": "2026-07-21T10:49:22+00:00",
+      "tier": "gaming",
+      "link": "https://www.polygon.com/sony-fans-physical-media-backlash-disc-sales/",
+      "sources": [
+        {
+          "name": "Polygon",
+          "link": "https://www.polygon.com/sony-fans-physical-media-backlash-disc-sales/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.520212137,
+      "matches": []
+    },
+    {
+      "title": "It's probably time to update 7-Zip as the app has just been patched to fix a pretty big vulnerability",
+      "summary": "It will need to be manually updated to version 26.02 or later.",
+      "published_utc": "2026-07-21T10:48:30+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/software/security/its-probably-time-to-update-7-zip-as-the-app-has-just-been-patched-to-fix-a-pretty-big-vulnerability/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/software/security/its-probably-time-to-update-7-zip-as-the-app-has-just-been-patched-to-fix-a-pretty-big-vulnerability/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.515878803583333,
+      "matches": []
+    },
+    {
+      "title": "Instagram now lets you swap out the music in your old posts",
+      "summary": "With the new \"Replace Audio,\" tool, users can update the music on their post at any time while keeping the post's existing likes, comments, shares, and reach intact.",
+      "published_utc": "2026-07-21T10:45:00+00:00",
+      "tier": "tech",
+      "link": "https://techcrunch.com/2026/07/21/instagram-now-lets-you-swap-out-the-music-in-your-old-posts/",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/21/instagram-now-lets-you-swap-out-the-music-in-your-old-posts/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.498378803416666,
+      "matches": []
+    },
+    {
+      "title": "Darkest Dungeon is getting its first dollop of DLC in several years, as the gloomy old RPG celebrates its 10th birthday",
+      "summary": "Darkest Dungeon 2 landed well enough and received generally positive reviews , but it's never been universally accepted in the same way the original game was, as Steam user reviews of Darkest Dungeon 2 highlight. Now, developer Red Hook Studios is surprising fans with a return\u2026",
+      "published_utc": "2026-07-21T10:43:15+00:00",
+      "tier": "gaming",
+      "link": "https://www.eurogamer.net/darkest-dungeon-the-fires-edge-dlc-reveal",
+      "sources": [
+        {
+          "name": "Eurogamer",
+          "link": "https://www.eurogamer.net/darkest-dungeon-the-fires-edge-dlc-reveal"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.489628803083334,
+      "matches": []
+    },
+    {
+      "title": "How an Autonomous Agent Breached Hugging Face \u2014 And What a RAG Poisoning Filter Would Have Stopped",
+      "summary": "The Incident In July 2026, Hugging Face \u2014 the largest public repository of AI models and datasets \u2014 disclosed that it had been breached by an autonomous AI agent. The starting point was the data processing pipeline itself: a malicious dataset abused two code execution paths \u2014 a\u2026",
+      "published_utc": "2026-07-21T10:40:11+00:00",
+      "tier": "dev",
+      "link": "https://dev.to/coridev/how-an-autonomous-agent-breached-hugging-face-and-what-a-rag-poisoning-filter-would-have-stopped-2361",
+      "sources": [
+        {
+          "name": "DEV Community",
+          "link": "https://dev.to/coridev/how-an-autonomous-agent-breached-hugging-face-and-what-a-rag-poisoning-filter-would-have-stopped-2361"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.474295469416666,
+      "matches": []
+    },
+    {
+      "title": "Jagex wants classic British point-and-click MMO RuneScape to be bigger than World of Warcraft",
+      "summary": "Jagex CEO Jon Bellamy has shared his lofty aspiration for RuneScape to be the biggest MMO in the world in the next five years. That, for those unaware, would mean toppling World of Warcraft from the top spot. Read more",
+      "published_utc": "2026-07-21T10:39:30+00:00",
+      "tier": "gaming",
+      "link": "https://www.eurogamer.net/jagex-runescape-bigger-than-world-of-warcraft",
+      "sources": [
+        {
+          "name": "Eurogamer",
+          "link": "https://www.eurogamer.net/jagex-runescape-bigger-than-world-of-warcraft"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.470878802666666,
+      "matches": []
+    },
+    {
+      "title": "Xbox Game Pass Is Going Somewhere You Probably Forgot About",
+      "summary": "Xbox Game Pass is teaming up with another subscription service this week, albeit one that appeals to a niche section of gamers. Facebook parent group Meta and Xbox have announced that a starter edition of Xbox Game Pass is now available to Meta Horizon+ subscribers, giving them\u2026",
+      "published_utc": "2026-07-21T10:39:06+00:00",
+      "tier": "gaming",
+      "link": "https://www.gamespot.com/articles/xbox-game-pass-is-going-somewhere-you-probably-forgot-about/",
+      "sources": [
+        {
+          "name": "GameSpot",
+          "link": "https://www.gamespot.com/articles/xbox-game-pass-is-going-somewhere-you-probably-forgot-about/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.468878802333333,
+      "matches": []
+    },
+    {
+      "title": "Gemini 3.6 Flash & 3.5 Flash-Lite: Developer guide",
+      "summary": "Gemini 3.6 Flash ( gemini-3.6-flash ) and Gemini 3.5 Flash-Lite ( gemini-3.5-flash-lite ) are generally available (GA) and ready for production use. Gemini 3.6 Flash : Stronger performance on complex agentic and multimodal tasks while reducing token usage, at a lower price point\u2026",
+      "published_utc": "2026-07-21T10:38:54+00:00",
+      "tier": "dev",
+      "link": "https://dev.to/googleai/gemini-36-flash-35-flash-lite-developer-guide-i17",
+      "sources": [
+        {
+          "name": "DEV Community",
+          "link": "https://dev.to/googleai/gemini-36-flash-35-flash-lite-developer-guide-i17"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.467878802,
+      "matches": []
+    },
+    {
+      "title": "A Sneaky Hacking Tool Targeting AI Infrastructure Is Lurking in Victims\u2019 Blind Spots",
+      "summary": "A new type of malware can worm deep into AI coding systems to steal data and logins\u2014and can flip a \u201cdeath switch\u201d to destroy files and keep out real users.",
+      "published_utc": "2026-07-21T10:38:44+00:00",
+      "tier": "tech",
+      "link": "https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots/",
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/story/a-sneaky-hacking-tool-targeting-ai-infrastructure-is-lurking-in-victims-blind-spots/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.467045468333334,
+      "matches": []
+    },
+    {
+      "title": "Darkest Dungeon\u2014the original\u2014is getting surprise DLC in August",
+      "summary": "The Fire's Edge will be the first new DLC for Darkest Dungeon since 2020.",
+      "published_utc": "2026-07-21T10:38:23+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/games/rpg/darkest-dungeon-the-original-is-getting-surprise-dlc-in-august/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/games/rpg/darkest-dungeon-the-original-is-getting-surprise-dlc-in-august/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.465295468083334,
+      "matches": []
+    },
+    {
+      "title": "Where to find the red howler monkey in Assassin's Creed Black Flag Resynced",
+      "summary": "Here's where to loot red howler monkey skin in Assassin's Creed Black Flag Resynced.",
+      "published_utc": "2026-07-21T10:38:19+00:00",
+      "tier": "gaming",
+      "link": "https://www.polygon.com/assassins-creed-black-flag-resynced-red-howler-monkey-location-where-to-find/",
+      "sources": [
+        {
+          "name": "Polygon",
+          "link": "https://www.polygon.com/assassins-creed-black-flag-resynced-red-howler-monkey-location-where-to-find/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.464962134666666,
+      "matches": []
+    },
+    {
+      "title": "The World's 2,400 Castles",
+      "summary": "Comments",
+      "published_utc": "2026-07-21T10:35:58+00:00",
+      "tier": "dev",
+      "link": "https://thecastlemap.com/",
+      "sources": [
+        {
+          "name": "Hacker News (Y Combinator)",
+          "link": "https://thecastlemap.com/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.4532121345833335,
+      "matches": []
+    },
+    {
+      "title": "I Built a Real-Time Perception Stack on CARLA. Here Is What Actually Happened.",
+      "summary": "I want to tell you about the three weeks I spent making YOLO and ROS 2 talk to each other inside a simulator, and why it was nothing like the tutorials made it look. This is not a clean architecture post. This is a \"here is what broke, here is what I changed, here is what I\u2026",
+      "published_utc": "2026-07-21T10:33:28+00:00",
+      "tier": "dev",
+      "link": "https://dev.to/iyanuoluwa007/i-built-a-real-time-perception-stack-on-carla-here-is-what-actually-happened-5abl",
+      "sources": [
+        {
+          "name": "DEV Community",
+          "link": "https://dev.to/iyanuoluwa007/i-built-a-real-time-perception-stack-on-carla-here-is-what-actually-happened-5abl"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.44071213425,
+      "matches": []
+    },
+    {
+      "title": "MCP Deep Dive, Part 10: When the Agent Feels Off \u2014 Debugging and Observability for MCP in Production",
+      "summary": "A web API fails loudly: a 500, a stack trace, an alert. An agent fails softly . It doesn't crash \u2014 it quietly takes six turns instead of two, calls the wrong tool, spends triple the tokens, and returns an answer that's subtly wrong. None of that throws an exception, and none of\u2026",
+      "published_utc": "2026-07-21T10:33:08+00:00",
+      "tier": "dev",
+      "link": "https://dev.to/kirandeepjassalcrypto/mcp-deep-dive-part-10-when-the-agent-feels-off-debugging-and-observability-for-mcp-in-production-1c43",
+      "sources": [
+        {
+          "name": "DEV Community",
+          "link": "https://dev.to/kirandeepjassalcrypto/mcp-deep-dive-part-10-when-the-agent-feels-off-debugging-and-observability-for-mcp-in-production-1c43"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.439045467333334,
+      "matches": []
+    },
+    {
+      "title": "Memory Isn't Just Storage: Why Persistent Agent Memory Becomes Your Liability Without Infrastructure",
+      "summary": "Memory Isn't Just Storage: Why Persistent Agent Memory Becomes Your Liability Without Infrastructure By Paul Twist \u2014 July 21, 2026 Here's what nobody wants to say in public: your agent's persistent memory is going to betray you. Not because the memory system is broken. Because\u2026",
+      "published_utc": "2026-07-21T10:33:06+00:00",
+      "tier": "dev",
+      "link": "https://dev.to/paultwist/memory-isnt-just-storage-why-persistent-agent-memory-becomes-your-liability-without-infrastructure-4gn8",
+      "sources": [
+        {
+          "name": "DEV Community",
+          "link": "https://dev.to/paultwist/memory-isnt-just-storage-why-persistent-agent-memory-becomes-your-liability-without-infrastructure-4gn8"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.438878800416667,
+      "matches": []
+    },
+    {
+      "title": "France's Anssi Will Block PQC-Free Products from Certification Starting 2027",
+      "summary": "Comments",
+      "published_utc": "2026-07-21T10:32:04+00:00",
+      "tier": "dev",
+      "link": "https://postquantum.com/security-pqc/anssi-pqc-certification-2027/",
+      "sources": [
+        {
+          "name": "Hacker News (Y Combinator)",
+          "link": "https://postquantum.com/security-pqc/anssi-pqc-certification-2027/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.433712133666666,
+      "matches": []
+    },
+    {
+      "title": "Evil Captain America And 6 More Avengers: Doomsday Theories Fans Are Pulling From The Trailer",
+      "summary": "Could Chris Evans be pulling double duty as both Steve Rogers and Captain Hydra?",
+      "published_utc": "2026-07-21T10:32:01+00:00",
+      "tier": "gaming",
+      "link": "https://kotaku.com/avengers-doomsday-trailer-theory-evil-captain-america-hydra-2000718049",
+      "sources": [
+        {
+          "name": "Kotaku",
+          "link": "https://kotaku.com/avengers-doomsday-trailer-theory-evil-captain-america-hydra-2000718049"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.433462133583332,
+      "matches": []
+    },
+    {
+      "title": "How I Built a UK-Focused Converter Site with Astro 5, React 19, and Tailwind 4 \u2014 Zero JS by Default, 100% Private",
+      "summary": "I got tired of searching \"gas mark 4 to celsius\" and landing on ad-heavy US sites that had never heard of a British oven. So I built the site I wanted to use myself. Here's how it went, what I learned, and why the stack matters. The problem Most conversion sites are US-centric\u2026",
+      "published_utc": "2026-07-21T10:31:44+00:00",
+      "tier": "dev",
+      "link": "https://dev.to/jsidiot/how-i-built-a-uk-focused-converter-site-with-astro-5-react-19-and-tailwind-4-zero-js-by-2bp",
+      "sources": [
+        {
+          "name": "DEV Community",
+          "link": "https://dev.to/jsidiot/how-i-built-a-uk-focused-converter-site-with-astro-5-react-19-and-tailwind-4-zero-js-by-2bp"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.432045466583333,
+      "matches": []
+    },
+    {
+      "title": "Nintendo Will Not Refund Tariff Fees It Passed Onto Customers, Saying They \u201cReceived Exactly What They Bargained And Paid For\u201d",
+      "summary": "Nintendo is just one of many companies that has been claiming refunds on the tariffs it was forced to pay on goods entering the United States from August 2025, but says it doesn't have to, and won't, pass these onto customers. In August 2025, Nintendo increased the price of the\u2026",
+      "published_utc": "2026-07-21T10:31:16+00:00",
+      "tier": "gaming",
+      "link": "https://www.gamespot.com/articles/nintendo-will-not-refund-tariff-fees-it-passed-onto-customers-saying-they-received-exactly-what-they-bargained-and-paid-for/",
+      "sources": [
+        {
+          "name": "GameSpot",
+          "link": "https://www.gamespot.com/articles/nintendo-will-not-refund-tariff-fees-it-passed-onto-customers-saying-they-received-exactly-what-they-bargained-and-paid-for/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.429712132916667,
+      "matches": []
+    },
+    {
+      "title": "Amid nurse shortage, a university rolls out the welcome mat for men",
+      "summary": "Comments",
+      "published_utc": "2026-07-21T10:31:07+00:00",
+      "tier": "dev",
+      "link": "https://text.npr.org/nx-s1-5869813",
+      "sources": [
+        {
+          "name": "Hacker News (Y Combinator)",
+          "link": "https://text.npr.org/nx-s1-5869813"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.428962132833333,
+      "matches": []
+    },
+    {
+      "title": "ECMP Explained: Two Equal Paths, and the Kernel Hashes Flows Across Them",
+      "summary": "Originally published at https://blog.pathvector.dev/protocol-lab-ecmp-32/ \u2014 part of the free Protocol Lab series. This post is part of Protocol Lab , a free, hands-on series for learning networking protocols by building and breaking them in a container lab. All the lab material\u2026",
+      "published_utc": "2026-07-21T10:30:22+00:00",
+      "tier": "dev",
+      "link": "https://dev.to/pathvector-dev/ecmp-explained-two-equal-paths-and-the-kernel-hashes-flows-across-them-1cbo",
+      "sources": [
+        {
+          "name": "DEV Community",
+          "link": "https://dev.to/pathvector-dev/ecmp-explained-two-equal-paths-and-the-kernel-hashes-flows-across-them-1cbo"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.425212132583334,
+      "matches": []
+    },
+    {
+      "title": "[Boost]",
+      "summary": "Building explicit data-flow graphs in TypeScript: Introducing Transferum Smoren Smoren Smoren Follow Jul 21 Building explicit data-flow graphs in TypeScript: Introducing Transferum # typescript # opensource # frp # rxjs 8 reactions 2 comments 4 min read",
+      "published_utc": "2026-07-21T10:30:22+00:00",
+      "tier": "dev",
+      "link": "https://dev.to/kotgoth/-42bf",
+      "sources": [
+        {
+          "name": "DEV Community",
+          "link": "https://dev.to/kotgoth/-42bf"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.4252121325,
+      "matches": []
+    },
+    {
+      "title": "Robocop TV series reboot confirmed for Prime Video",
+      "summary": "Amazon MGM Studios announces new Robocop reboot, an 8-episode sci-fi reboot for Prime Video with James Wan producing.",
+      "published_utc": "2026-07-21T10:30:12+00:00",
+      "tier": "gaming",
+      "link": "https://www.polygon.com/robocop-new-tv-show-prime-video/",
+      "sources": [
+        {
+          "name": "Polygon",
+          "link": "https://www.polygon.com/robocop-new-tv-show-prime-video/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.424378799,
+      "matches": []
+    },
+    {
+      "title": "MTG The Hobbit exclusive reveals Orcrist, Goblin-cleaver and Eagle of the Great Shelf",
+      "summary": "Polygon can exclusively reveal two new cards from Magic: The Gathering's upcoming Universes Beyond set based on The Hobbit.",
+      "published_utc": "2026-07-21T10:30:12+00:00",
+      "tier": "gaming",
+      "link": "https://www.polygon.com/mtg-the-hobbit-exclusive-orcrist-thorin-sword-equipment/",
+      "sources": [
+        {
+          "name": "Polygon",
+          "link": "https://www.polygon.com/mtg-the-hobbit-exclusive-orcrist-thorin-sword-equipment/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.424378798916666,
+      "matches": []
+    },
+    {
+      "title": "How to build interactive experiences with canvases",
+      "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The GitHub Blog .",
+      "published_utc": "2026-07-21T10:30:00+00:00",
+      "tier": "dev",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "sources": [
+        {
+          "name": "GitHub Blog",
+          "link": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.423378798749999,
+      "matches": []
+    },
+    {
+      "title": "Threads rolls out parental supervision tools",
+      "summary": "With the new tools, parents and guardians will be able to view their teen's time spent on Threads, set daily time limits, adjust sleep mode, and manage their privacy settings.",
+      "published_utc": "2026-07-21T10:30:00+00:00",
+      "tier": "tech",
+      "link": "https://techcrunch.com/2026/07/21/threads-rolls-out-parental-supervision-tools/",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/21/threads-rolls-out-parental-supervision-tools/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.423378798666667,
+      "matches": []
+    },
+    {
+      "title": "Pok\u00e9mon Go 'Ultra Unlock: 10th Anniversary Edition' event guide",
+      "summary": "Here's everything you need to know about the Pok\u00e9mon Go Ultra Unlock event with the Professor Willow Pikachu.",
+      "published_utc": "2026-07-21T10:29:53+00:00",
+      "tier": "gaming",
+      "link": "https://www.polygon.com/pokemon-go-ultra-unlock-10th-anniversary-edition-willow-pikachu-research/",
+      "sources": [
+        {
+          "name": "Polygon",
+          "link": "https://www.polygon.com/pokemon-go-ultra-unlock-10th-anniversary-edition-willow-pikachu-research/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.4227954650833325,
+      "matches": []
+    },
+    {
+      "title": "Most AI APIs hand you a label and ask you to believe it.",
+      "summary": "Most AI APIs hand you a label and ask you to believe it. gpt-5.5 . claude-opus-4.8 . minimax-m3 . \"Premium model.\" Cool. But what happens when the endpoint quietly swaps you onto something cheaper? Or mixes your traffic across three providers? Or wraps some other API and slaps a\u2026",
+      "published_utc": "2026-07-21T10:29:39+00:00",
+      "tier": "dev",
+      "link": "https://dev.to/antseedai/most-ai-apis-hand-you-a-label-and-ask-you-to-believe-it-8b",
+      "sources": [
+        {
+          "name": "DEV Community",
+          "link": "https://dev.to/antseedai/most-ai-apis-hand-you-a-label-and-ask-you-to-believe-it-8b"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.421628798166667,
+      "matches": []
+    },
+    {
+      "title": "Final Fantasy 14 used FF11's infamous boss to aura farm",
+      "summary": "FF14's Echoes of Vana'diel raid brought back Final Fantasy 11's Absolute Virtue to show off just how dangerous Shantotto was",
+      "published_utc": "2026-07-21T10:29:27+00:00",
+      "tier": "gaming",
+      "link": "https://www.polygon.com/final-fantasy-14-vandaiel-raids-could-have-included-an-absolute-virtue-fight/",
+      "sources": [
+        {
+          "name": "Polygon",
+          "link": "https://www.polygon.com/final-fantasy-14-vandaiel-raids-could-have-included-an-absolute-virtue-fight/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.4206287980833325,
+      "matches": []
+    },
+    {
+      "title": "TSMC admits its 'jealous' of memory chipmakers' margins, but is limiting its own price hike because its customers would not survive price increases of 'four to five times'",
+      "summary": "The company announces a 10 - 15% price increase, but isn't keen to emulate the memory industry's runaway pricing.",
+      "published_utc": "2026-07-21T10:29:15+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/hardware/tsmc-admits-its-jealous-of-memory-chipmakers-margins-but-is-limiting-its-own-price-hike-because-its-customers-would-not-survive-price-increases-of-four-to-five-times/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/hardware/tsmc-admits-its-jealous-of-memory-chipmakers-margins-but-is-limiting-its-own-price-hike-because-its-customers-would-not-survive-price-increases-of-four-to-five-times/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.419628798,
+      "matches": []
+    },
+    {
+      "title": "Hideo Kojima Reveals How He Wants To Die",
+      "summary": "Writer-director Hideo Kojima, famous for creating Metal Gear Solid and Death Stranding, has commented on how he would like to die. During a recent event, Kojima said he would like to die in a movie theater, and he even knows when, exactly, he'd like to pass away. \"I like the\u2026",
+      "published_utc": "2026-07-21T10:24:46+00:00",
+      "tier": "gaming",
+      "link": "https://www.gamespot.com/articles/hideo-kojima-reveals-how-he-wants-to-die/",
+      "sources": [
+        {
+          "name": "GameSpot",
+          "link": "https://www.gamespot.com/articles/hideo-kojima-reveals-how-he-wants-to-die/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.397212131000001,
+      "matches": []
+    },
+    {
+      "title": "Fixing \"Can't get distribution attribute of table\" in GBase 8a",
+      "summary": "When a gbase database cluster experiences an unclean shutdown \u2014 a sudden power loss or kernel panic \u2014 some metadata that was still in memory may never make it to disk. This can leave the critical gbase.table_distribution table with missing rows, causing queries against certain\u2026",
+      "published_utc": "2026-07-21T10:22:00+00:00",
+      "tier": "dev",
+      "link": "https://dev.to/michaelfv/fixing-cant-get-distribution-attribute-of-table-in-gbase-8a-k24",
+      "sources": [
+        {
+          "name": "DEV Community",
+          "link": "https://dev.to/michaelfv/fixing-cant-get-distribution-attribute-of-table-in-gbase-8a-k24"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.383378797416667,
+      "matches": []
+    },
+    {
+      "title": "The FBI has arrested a 21-year-old alleged to have stolen $220,000 through Steam using malware-ridden games",
+      "summary": "The FBI has arrested a 21-year-old Florida man alleged to have stolen roughly $220,000 of crypto currency using malware installed alongside games. And while the PC platform used to nab this catch isn't explicitly specified, the infested games listed by the FBI were present on\u2026",
+      "published_utc": "2026-07-21T10:20:54+00:00",
+      "tier": "gaming",
+      "link": "https://www.eurogamer.net/fbi-arrest-21-year-old-stolen-crypto-currency",
+      "sources": [
+        {
+          "name": "Eurogamer",
+          "link": "https://www.eurogamer.net/fbi-arrest-21-year-old-stolen-crypto-currency"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.377878797166667,
+      "matches": []
+    },
+    {
+      "title": "9 Best Open-Source LLMs in 2026 (Compared)",
+      "summary": "Open-source LLMs stopped being the budget option in 2026. Kimi K3 sits level with Claude Opus 4.8 on the Artificial Analysis Intelligence Index (its hosted API is live; the weights themselves are expected by July 27), GLM-5.2 held the top open-model spot before it, and the field\u2026",
+      "published_utc": "2026-07-21T10:19:11+00:00",
+      "tier": "dev",
+      "link": "https://dev.to/smakosh/9-best-open-source-llms-in-2026-compared-29p2",
+      "sources": [
+        {
+          "name": "DEV Community",
+          "link": "https://dev.to/smakosh/9-best-open-source-llms-in-2026-compared-29p2"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.369295463499999,
+      "matches": []
+    },
+    {
+      "title": "How to Use Kimi K3 with Claude Code, Cursor, and Cline",
+      "summary": "Kimi K3 took first place in Arena's Frontend Code evaluation the week it launched, and it holds a 1M-token context \u2014 but Moonshot doesn't ship a coding agent, and your coding agent doesn't ship Kimi K3. Claude Code is locked to Anthropic's API by default, Cursor to its own\u2026",
+      "published_utc": "2026-07-21T10:18:36+00:00",
+      "tier": "dev",
+      "link": "https://dev.to/smakosh/how-to-use-kimi-k3-with-claude-code-cursor-and-cline-1dpi",
+      "sources": [
+        {
+          "name": "DEV Community",
+          "link": "https://dev.to/smakosh/how-to-use-kimi-k3-with-claude-code-cursor-and-cline-1dpi"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.366378796583333,
+      "matches": []
+    },
+    {
+      "title": "Reported lead of Obsidian's new Fallout game wants you to feel a \"sense of agony\" when playing an RPG, rather than being an all-powerful god-splatterer",
+      "summary": "Look at the nice fellow in the featured image of this article. Look into his eyes. Look at the slightly awkward grin plastered across his face at the moment in a YouTube video on his channel that I've chosen to pause and take a screenshot. This is a man who wants you to feel \"a\u2026",
+      "published_utc": "2026-07-21T10:17:09+00:00",
+      "tier": "gaming",
+      "link": "https://www.rockpapershotgun.com/reported-lead-of-obsidians-new-fallout-game-wants-you-to-feel-a-sense-of-agony-when-playing-an-rpg-rather-than-being-an-all-powerful-god-splatterer",
+      "sources": [
+        {
+          "name": "Rock Paper Shotgun",
+          "link": "https://www.rockpapershotgun.com/reported-lead-of-obsidians-new-fallout-game-wants-you-to-feel-a-sense-of-agony-when-playing-an-rpg-rather-than-being-an-all-powerful-god-splatterer"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.359128795999999,
+      "matches": []
+    },
+    {
+      "title": "NPM's release cooldown is security theater",
+      "summary": "Comments",
+      "published_utc": "2026-07-21T10:16:18+00:00",
+      "tier": "dev",
+      "link": "https://blog.outv.im/2026/npm-cooldown-security-theater/",
+      "sources": [
+        {
+          "name": "Hacker News (Y Combinator)",
+          "link": "https://blog.outv.im/2026/npm-cooldown-security-theater/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.354878795833334,
+      "matches": []
+    },
+    {
+      "title": "Arctic Freezer 36-S review",
+      "summary": "Surprisingly effective for the money.",
+      "published_utc": "2026-07-21T10:14:01+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/hardware/cooling/arctic-freezer-36-s-review/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/hardware/cooling/arctic-freezer-36-s-review/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.343462129083333,
+      "matches": []
+    },
+    {
+      "title": "Long Presumed Dead, a Thriving Coral Reef Is Discovered in West Africa",
+      "summary": "Comments",
+      "published_utc": "2026-07-21T10:11:51+00:00",
+      "tier": "dev",
+      "link": "https://e360.yale.edu/digest/benin-coral-reef",
+      "sources": [
+        {
+          "name": "Hacker News (Y Combinator)",
+          "link": "https://e360.yale.edu/digest/benin-coral-reef"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.332628795583333,
+      "matches": []
+    },
+    {
+      "title": "How to beat all legendary ships in Assassin's Creed Black Flag Resynced",
+      "summary": "Here's how to defeat the legendary ships, such as the HMS Prince, in Assassin's Creed Black Flag Resynced.",
+      "published_utc": "2026-07-21T10:07:21+00:00",
+      "tier": "gaming",
+      "link": "https://www.polygon.com/assassins-creed-black-flag-resynced-legendary-ships-how-to-beat/",
+      "sources": [
+        {
+          "name": "Polygon",
+          "link": "https://www.polygon.com/assassins-creed-black-flag-resynced-legendary-ships-how-to-beat/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.3101287954166665,
+      "matches": []
+    },
+    {
+      "title": "US threatens sanctions against Chinese AI models over IP theft",
+      "summary": "Treasury Secretary Scott Bessent said the U.S. could sanction Chinese open AI models over alleged IP theft, expanding the Trump administration's campaign to slow China's AI advances.",
+      "published_utc": "2026-07-21T10:07:05+00:00",
+      "tier": "tech",
+      "link": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.308795462,
+      "matches": []
+    },
+    {
+      "title": "Slay the Spire 2 developer shows artwork and concepts for Doormaker boss replacement Aeonglass",
+      "summary": "Last month, Slay the Spire 2's Act 3 boss Doormaker - the third in a series of late-game reworks - was removed and replaced by Aeonglass. Now, developer Mega Crit has revealed how its fun visual design came to be. Read more",
+      "published_utc": "2026-07-21T10:02:05+00:00",
+      "tier": "gaming",
+      "link": "https://www.eurogamer.net/slay-the-spire-2-aeonglass-design-process",
+      "sources": [
+        {
+          "name": "Eurogamer",
+          "link": "https://www.eurogamer.net/slay-the-spire-2-aeonglass-design-process"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.283795461833333,
+      "matches": []
+    },
+    {
+      "title": "Out today, Die or Dive is a promising roguelite scuba sim that basically turns Darkest Dungeon into Ecco the Dolphin",
+      "summary": "A day will dawn when the premise \"what if Darkest Dungeon but also XYZ\" will lose its crablike stranglehold on my fancy, but that day is not this day, for today we Dive or Die. Not that the two activities are mutually exclusive. In this 2D roguelite scuba sim from Drop Rate\u2026",
+      "published_utc": "2026-07-21T09:58:17+00:00",
+      "tier": "gaming",
+      "link": "https://www.rockpapershotgun.com/out-today-die-or-dive-is-a-promising-roguelite-scuba-sim-that-basically-turns-darkest-dungeon-into-ecco-the-dolphin",
+      "sources": [
+        {
+          "name": "Rock Paper Shotgun",
+          "link": "https://www.rockpapershotgun.com/out-today-die-or-dive-is-a-promising-roguelite-scuba-sim-that-basically-turns-darkest-dungeon-into-ecco-the-dolphin"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.264795461583334,
+      "matches": []
+    },
+    {
+      "title": "RSPack 2.0: Performance Gains, Leaner Dependencies and ESM Core",
+      "summary": "Rspack, developed by ByteDance, has released version 2.0, featuring enhanced performance, reduced dependencies, and a focus on modern ECMAScript modules. Key updates include a pure ESM core, improved static analysis, and support for RSC. Performance benchmarks show big\u2026",
+      "published_utc": "2026-07-21T09:53:00+00:00",
+      "tier": "dev",
+      "link": "https://www.infoq.com/news/2026/07/rspack-2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sources": [
+        {
+          "name": "InfoQ",
+          "link": "https://www.infoq.com/news/2026/07/rspack-2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.238378794666667,
+      "matches": []
+    },
+    {
+      "title": "Oracle could face $7B collateral bill for Wisconsin data centre",
+      "summary": "Comments",
+      "published_utc": "2026-07-21T09:52:33+00:00",
+      "tier": "dev",
+      "link": "https://www.ft.com/content/b37030b6-bda8-4ba9-8e08-e6b88687b8f5",
+      "sources": [
+        {
+          "name": "Hacker News (Y Combinator)",
+          "link": "https://www.ft.com/content/b37030b6-bda8-4ba9-8e08-e6b88687b8f5"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.236128794583333,
+      "matches": []
+    },
+    {
+      "title": "Amid Increased Scrutiny, ICE Detention and Deportation Data Goes Dark",
+      "summary": "Comments",
+      "published_utc": "2026-07-21T09:51:02+00:00",
+      "tier": "dev",
+      "link": "https://www.themarshallproject.org/2026/07/15/ice-data-immigration-detention-transparency",
+      "sources": [
+        {
+          "name": "Hacker News (Y Combinator)",
+          "link": "https://www.themarshallproject.org/2026/07/15/ice-data-immigration-detention-transparency"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.228545461166667,
+      "matches": []
+    },
+    {
+      "title": "ICE to Pay Thomson Reuters $125M to Find Voter Fraud",
+      "summary": "Comments",
+      "published_utc": "2026-07-21T09:49:44+00:00",
+      "tier": "dev",
+      "link": "https://www.404media.co/ice-to-pay-thomson-reuters-125-million-to-find-voter-fraud/",
+      "sources": [
+        {
+          "name": "Hacker News (Y Combinator)",
+          "link": "https://www.404media.co/ice-to-pay-thomson-reuters-125-million-to-find-voter-fraud/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.2220454609999996,
+      "matches": []
+    },
+    {
+      "title": "Hasbro\u2019s Big Gaming Strategy Is Falling Apart After A $56 Million Write-Down",
+      "summary": "Well, that didn't last long",
+      "published_utc": "2026-07-21T09:49:27+00:00",
+      "tier": "gaming",
+      "link": "https://kotaku.com/hasbro-56-million-impairment-charge-video-games-canceled-2000718018",
+      "sources": [
+        {
+          "name": "Kotaku",
+          "link": "https://kotaku.com/hasbro-56-million-impairment-charge-video-games-canceled-2000718018"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.220628794166666,
+      "matches": []
+    },
+    {
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "summary": "Comments",
+      "published_utc": "2026-07-21T09:47:16+00:00",
+      "tier": "dev",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "sources": [
+        {
+          "name": "Hacker News (Y Combinator)",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.209712127416666,
+      "matches": []
+    },
+    {
+      "title": "Fortnite wants to be the new Pok\u00e9mon with new update",
+      "summary": "The Fortnite Cuddles and Chaos Collection teases new monster-focused gameplay features that will be familiar to Pok\u00e9mon and Palworld fans",
+      "published_utc": "2026-07-21T09:44:53+00:00",
+      "tier": "gaming",
+      "link": "https://www.polygon.com/fortnite-cuddles-chaos-collection-sidekicks-pokemon-palworld/",
+      "sources": [
+        {
+          "name": "Polygon",
+          "link": "https://www.polygon.com/fortnite-cuddles-chaos-collection-sidekicks-pokemon-palworld/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.197795460583333,
+      "matches": []
+    },
+    {
+      "title": "We\u2019ll Finally See The Witcher 3\u2019s New Expansion Next Month",
+      "summary": "With Gamescom Opening Night Live just a little over a month away, it looks like the first big reveal for the showcase has been revealed: The Witcher 3 . Not too long ago, CD Projekt Red confirmed that a third expansion for its fantasy-themed action-RPG is in development, and\u2026",
+      "published_utc": "2026-07-21T09:34:31+00:00",
+      "tier": "gaming",
+      "link": "https://www.gamespot.com/articles/well-finally-see-the-witcher-3-new-expansion-next-month/",
+      "sources": [
+        {
+          "name": "GameSpot",
+          "link": "https://www.gamespot.com/articles/well-finally-see-the-witcher-3-new-expansion-next-month/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.145962126916666,
+      "matches": []
+    },
+    {
+      "title": "Final Fantasy 7 Rebirth's streamlined progression is a reminder of the joy of cheating",
+      "summary": "With GTA 6 out later this fall, are we on the precipice of a video-game cheating renaissance?",
+      "published_utc": "2026-07-21T09:30:12+00:00",
+      "tier": "gaming",
+      "link": "https://www.polygon.com/more-video-games-need-to-let-you-cheat/",
+      "sources": [
+        {
+          "name": "Polygon",
+          "link": "https://www.polygon.com/more-video-games-need-to-let-you-cheat/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.124378793499999,
+      "matches": []
+    },
+    {
+      "title": "Acer's Predator Atlas 8 pricing puts the nail in the handheld coffin for me: it is now a luxury market",
+      "summary": "Just as predicted.",
+      "published_utc": "2026-07-21T09:30:09+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/acers-predator-atlas-8-pricing-puts-the-nail-in-the-handheld-coffin-for-me-it-is-now-a-luxury-market/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/acers-predator-atlas-8-pricing-puts-the-nail-in-the-handheld-coffin-for-me-it-is-now-a-luxury-market/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.124128793416667,
+      "matches": []
+    },
+    {
+      "title": "Light made a flip phone \u2014 it\u2019s colorful and it\u2019s cheap",
+      "summary": "Light co-founder Kaiwei Tang helped create the Motorola Razr, and he's as surprised as anyone that over 20 years later, the flip phone is relevant again.",
+      "published_utc": "2026-07-21T09:30:00+00:00",
+      "tier": "tech",
+      "link": "https://techcrunch.com/2026/07/21/light-is-modernizing-the-flip-phone-with-light-flip/",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/21/light-is-modernizing-the-flip-phone-with-light-flip/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.123378793166666,
+      "matches": []
+    },
+    {
+      "title": "Nvidia Wants to Own Every Chip Inside AI Data Centers",
+      "summary": "Nvidia\u2019s Vera Rubin platform combines CPUs and GPUs into a single system, reflecting the company\u2019s growing ambition to power every layer of AI infrastructure.",
+      "published_utc": "2026-07-21T09:30:00+00:00",
+      "tier": "tech",
+      "link": "https://www.wired.com/story/nvidia-wants-to-own-every-chip-inside-an-ai-data-center/",
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/story/nvidia-wants-to-own-every-chip-inside-an-ai-data-center/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.123378793,
+      "matches": []
+    },
+    {
+      "title": "The Light Flip Is the Stylish Dumb Flip Phone of Your Dreams",
+      "summary": "A flip phone with 5G, USB-C, a headphone jack, and a removable battery? Say it ain\u2019t so.",
+      "published_utc": "2026-07-21T09:30:00+00:00",
+      "tier": "tech",
+      "link": "https://www.wired.com/story/light-flip-is-the-modern-stylish-dumb-flip-phone-of-your-luddite-dreams/",
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/story/light-flip-is-the-modern-stylish-dumb-flip-phone-of-your-luddite-dreams/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.12337879275,
+      "matches": []
+    },
+    {
+      "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
+      "summary": "A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft\u2026",
+      "published_utc": "2026-07-21T09:27:51+00:00",
+      "tier": "daily",
+      "link": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.1126287925,
+      "matches": []
+    },
+    {
+      "title": "What happens if you visit a WordPress site hacked through wp2shell?",
+      "summary": "Attackers started exploiting the critical wp2shell vulnerability chain within hours of patches being released, putting sites and their visitors at risk.",
+      "published_utc": "2026-07-21T09:27:27+00:00",
+      "tier": "malware",
+      "link": "https://www.malwarebytes.com/blog/bugs/2026/07/what-happens-if-you-visit-a-wordpress-site-hacked-through-wp2shell",
+      "sources": [
+        {
+          "name": "Malwarebytes Labs",
+          "link": "https://www.malwarebytes.com/blog/bugs/2026/07/what-happens-if-you-visit-a-wordpress-site-hacked-through-wp2shell"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.110628792416667,
+      "matches": []
+    },
+    {
+      "title": "Marvel Tokon: Fighting Souls Beta \u2013 Start Time, Roster, And How To Get In",
+      "summary": "Marvel Tokon: Fighting Souls launches soon, but if you're impatient, then you can dive into the game's open beta this weekend. While fighting game betas aren't a novelty, the Marvel Tokon one is turning heads for the sheer amount of content that it's offering to players, ranging\u2026",
+      "published_utc": "2026-07-21T09:26:13+00:00",
+      "tier": "gaming",
+      "link": "https://www.gamespot.com/articles/marvel-tokon-fighting-souls-beta-start-time-roster-and-how-to-get-in/",
+      "sources": [
+        {
+          "name": "GameSpot",
+          "link": "https://www.gamespot.com/articles/marvel-tokon-fighting-souls-beta-start-time-roster-and-how-to-get-in/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.1044621255,
+      "matches": []
+    },
+    {
+      "title": "After TikTok, Snap settles social media addiction case",
+      "summary": "TikTok recently settled its portion of the case with the plaintiff ahead of a jury trial that starts next week in Los Angeles. YouTube has also reached a deal, leaving Meta as the only remaining defendant.",
+      "published_utc": "2026-07-21T09:24:19+00:00",
+      "tier": "tech",
+      "link": "https://techcrunch.com/2026/07/21/after-tiktok-snap-settles-social-media-addiction-case/",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/21/after-tiktok-snap-settles-social-media-addiction-case/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.094962125416666,
+      "matches": []
+    },
+    {
+      "title": "Claude Is Not a Compiler",
+      "summary": "Comments",
+      "published_utc": "2026-07-21T09:19:18+00:00",
+      "tier": "dev",
+      "link": "https://blog.exe.dev/claude-is-not-a-compiler",
+      "sources": [
+        {
+          "name": "Hacker News (Y Combinator)",
+          "link": "https://blog.exe.dev/claude-is-not-a-compiler"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.069878791916666,
+      "matches": []
+    },
+    {
+      "title": "Developer of Burnout spiritual successor Wreckreation has formed a new studio working on a sequel",
+      "summary": "\"We've reached a point where it makes sense for the project to have a new home, one that we own completely.\"",
+      "published_utc": "2026-07-21T09:19:04+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/games/racing/developer-of-burnout-spiritual-successor-wreckreation-has-formed-a-new-studio-working-on-a-sequel/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/games/racing/developer-of-burnout-spiritual-successor-wreckreation-has-formed-a-new-studio-working-on-a-sequel/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.068712125166667,
+      "matches": []
+    },
+    {
+      "title": "AI music generator Suno breach affects 55M users, per Have I Been Pwned",
+      "summary": "A hacker took names, phone numbers, and physical addresses of millions of customers who used AI music generator Suno.",
+      "published_utc": "2026-07-21T09:18:18+00:00",
+      "tier": "tech",
+      "link": "https://techcrunch.com/2026/07/21/ai-music-generator-suno-breach-affects-55m-users-per-have-i-been-pwned/",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/21/ai-music-generator-suno-breach-affects-55m-users-per-have-i-been-pwned/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 5.064878791666667,
+      "matches": []
+    },
+    {
+      "title": "Apple Defeats Liability for Not Scanning iCloud for CSAM",
+      "summary": "Comments",
+      "published_utc": "2026-07-21T09:01:41+00:00",
+      "tier": "dev",
+      "link": "https://blog.ericgoldman.org/archives/2026/07/apple-defeats-liability-for-not-scanning-icloud-for-csam-but-the-judge-was-not-pleased-amy-v-apple.htm",
+      "sources": [
+        {
+          "name": "Hacker News (Y Combinator)",
+          "link": "https://blog.ericgoldman.org/archives/2026/07/apple-defeats-liability-for-not-scanning-icloud-for-csam-but-the-judge-was-not-pleased-amy-v-apple.htm"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.981795458249999,
+      "matches": []
+    },
+    {
+      "title": "Ghost In The Shell Fans Who Never Read The Manga Are Very Confused By The New Hornier Adaptation",
+      "summary": "Science Saru's 2026 adaptation of Ghost in the Shell is finally here, and its goofy and raunchy vibes are perplexing those who haven't read Masamune Shirow\u2019s original 1989 manga",
+      "published_utc": "2026-07-21T09:00:30+00:00",
+      "tier": "gaming",
+      "link": "https://kotaku.com/ghost-in-the-shell-anime-manga-science-saru-mamoru-oshii-masamune-shirow-2000717449",
+      "sources": [
+        {
+          "name": "Kotaku",
+          "link": "https://kotaku.com/ghost-in-the-shell-anime-manga-science-saru-mamoru-oshii-masamune-shirow-2000717449"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.9758787912499995,
+      "matches": []
+    },
+    {
+      "title": "What to know about the landmark Warner Bros. Discovery sale",
+      "summary": "Learn more about Paramount's planned acquisition of Warner Bros. Discovery \u2014 a historic Hollywood megadeal valued at $111 billion \u2014 as it continues to develop.",
+      "published_utc": "2026-07-21T08:45:39+00:00",
+      "tier": "tech",
+      "link": "https://techcrunch.com/2026/07/21/warner-bros-netflix-paramount-acquisition-timeline-wbd/",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/21/warner-bros-netflix-paramount-acquisition-timeline-wbd/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.901628791083334,
+      "matches": []
+    },
+    {
+      "title": "UK government scraps plans for digital ID cards after millions of Brits opposed",
+      "summary": "The new U.K. government scrapped a digital ID program that millions of British people opposed, in place of a tax cut to tackle the cost of living.",
+      "published_utc": "2026-07-21T08:43:21+00:00",
+      "tier": "tech",
+      "link": "https://techcrunch.com/2026/07/21/uk-government-scraps-plans-for-digital-id-cards-after-millions-of-brits-opposed/",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/21/uk-government-scraps-plans-for-digital-id-cards-after-millions-of-brits-opposed/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.890128791,
+      "matches": []
+    },
+    {
+      "title": "The Witcher 3's expansion reveal is scheduled for next month",
+      "summary": "And other headlines that could come from 2026 or 2015.",
+      "published_utc": "2026-07-21T08:41:49+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/games/the-witcher/the-witcher-3s-expansion-reveal-is-scheduled-for-next-month/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/games/the-witcher/the-witcher-3s-expansion-reveal-is-scheduled-for-next-month/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.882462124166667,
+      "matches": []
+    },
+    {
+      "title": "Nintendo has no obligation to pass tariff refunds onto customers, the company says, because Switch buyers received \"what they bargained and paid for\"",
+      "summary": "Nintendo has said it does not owe people who bought its products at higher prices any rebates, after the company raised prices in response to inflated US tariffs. The Japanese gaming giant is seeking the dismissal of a class-action lawsuit that argues this exact case: that\u2026",
+      "published_utc": "2026-07-21T08:39:55+00:00",
+      "tier": "gaming",
+      "link": "https://www.eurogamer.net/nintendo-us-tariffs-no-switch-refunds-class-action-lawsuit",
+      "sources": [
+        {
+          "name": "Eurogamer",
+          "link": "https://www.eurogamer.net/nintendo-us-tariffs-no-switch-refunds-class-action-lawsuit"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.8729621239166665,
+      "matches": []
+    },
+    {
+      "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
+      "summary": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it investigated multiple intrusions in June 2026 that began\u2026",
+      "published_utc": "2026-07-21T08:34:57+00:00",
+      "tier": "daily",
+      "link": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.848128790333333,
+      "matches": []
+    },
+    {
+      "title": "Windows 11 Is So Poorly Optimized That Microsoft\u2019s Latest $900 Laptop Reportedly Can\u2019t Use It Without Freezing",
+      "summary": "Thanks to a combination of factors, including AI-induced RAMageddon and Windows 11 bloat, Microsoft's latest Surface Laptop reportedly can barely handle basic functions without freezing",
+      "published_utc": "2026-07-21T08:30:59+00:00",
+      "tier": "gaming",
+      "link": "https://kotaku.com/microsoft-surface-laptop-windows-11-ram-13-inch-2000717981",
+      "sources": [
+        {
+          "name": "Kotaku",
+          "link": "https://kotaku.com/microsoft-surface-laptop-windows-11-ram-13-inch-2000717981"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.82829545675,
+      "matches": []
+    },
+    {
+      "title": "Valve has replaced a Steam Machine for free after it was stolen by porch pirates, saving one UK redditor roughly \u00a31,000",
+      "summary": "A feel-good story? What year is this again?",
+      "published_utc": "2026-07-21T08:30:54+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/hardware/gaming-pcs/valve-has-replaced-a-steam-machine-for-free-after-it-was-stolen-by-porch-pirates-saving-one-uk-redditor-roughly-gbp1-000/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/hardware/gaming-pcs/valve-has-replaced-a-steam-machine-for-free-after-it-was-stolen-by-porch-pirates-saving-one-uk-redditor-roughly-gbp1-000/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.827878789833332,
+      "matches": []
+    },
+    {
+      "title": "Closing the Identity Gaps in Critical Infrastructure Security",
+      "summary": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device trust before granting access to critical systems. [...]",
+      "published_utc": "2026-07-21T08:30:10+00:00",
+      "tier": "daily",
+      "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
+      "sources": [
+        {
+          "name": "Bleeping Computer",
+          "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.824212123083332,
+      "matches": []
+    },
+    {
+      "title": "The Xteink X4 Pro could be the tiny e-reader of your dreams",
+      "summary": "Xteink makes its pocket-sized e-reader even better with a touchscreen and front light.",
+      "published_utc": "2026-07-21T08:30:00+00:00",
+      "tier": "tech",
+      "link": "https://techcrunch.com/2026/07/21/the-xteink-x4-pro-could-be-the-tiny-e-reader-of-your-dreams/",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/21/the-xteink-x4-pro-could-be-the-tiny-e-reader-of-your-dreams/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.823378789666667,
+      "matches": []
+    },
+    {
+      "title": "What does the next 10 years hold for Pok\u00e9mon Go? More mechanics, better gyms, and \"multi-generational play\"",
+      "summary": "Pok\u00e9mon Go is celebrating its 10th anniversary this year. The game, which famously uses GPS and augmented reality to let you discover, catch, and battle virtual monsters in real-world locations, took the world by storm in 2016. Blurring the line between mainstream and niche\u2026",
+      "published_utc": "2026-07-21T08:30:00+00:00",
+      "tier": "gaming",
+      "link": "https://www.eurogamer.net/pokemon-go-next-10-years-gym-multi-generation-more-mechanics",
+      "sources": [
+        {
+          "name": "Eurogamer",
+          "link": "https://www.eurogamer.net/pokemon-go-next-10-years-gym-multi-generation-more-mechanics"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.823378789333334,
+      "matches": []
+    },
+    {
+      "title": "Xbox Game Pass was a good idea in theory, former Forza Horizon 5 director says, but \"the reality is not enough people have subscribed\"",
+      "summary": "Mike Brown, ex-director on Forza Horizon 5 at Playground Games, has commented on Xbox's current problems and Game Pass ' impact on the brand's overarching strategy in recent years. Read more",
+      "published_utc": "2026-07-21T08:29:47+00:00",
+      "tier": "gaming",
+      "link": "https://www.eurogamer.net/forza-horizon-5-director-comments-xbox-game-pass",
+      "sources": [
+        {
+          "name": "Eurogamer",
+          "link": "https://www.eurogamer.net/forza-horizon-5-director-comments-xbox-game-pass"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.822295455916667,
+      "matches": []
+    },
+    {
+      "title": "Ex-TSMC manager first to be indicted under National Security Act for allegedly attempting to leak core Taiwanese chipmaking technologies to China",
+      "summary": "They could face up to seven years in prison.",
+      "published_utc": "2026-07-21T08:20:51+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/hardware/ex-tsmc-manager-first-to-be-indicted-under-national-security-act-for-allegedly-attempting-to-leak-core-taiwanese-chipmaking-technologies-to-china/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/hardware/ex-tsmc-manager-first-to-be-indicted-under-national-security-act-for-allegedly-attempting-to-leak-core-taiwanese-chipmaking-technologies-to-china/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.777628789083334,
+      "matches": []
+    },
+    {
+      "title": "PCjs Machines",
+      "summary": "Comments",
+      "published_utc": "2026-07-21T08:18:35+00:00",
+      "tier": "dev",
+      "link": "https://www.pcjs.org/",
+      "sources": [
+        {
+          "name": "Hacker News (Y Combinator)",
+          "link": "https://www.pcjs.org/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.766295455666667,
+      "matches": []
+    },
+    {
+      "title": "Xbox Game Pass Gets Even More New Games In July",
+      "summary": "It's that time of the month again, as the second wave of Xbox Game Pass games for July 2026 has been officially revealed. As usual, subscribers can expect several day-one releases, including one of the biggest games of the month, Halo: Campaign Evolved. Microsoft has also\u2026",
+      "published_utc": "2026-07-21T08:16:33+00:00",
+      "tier": "gaming",
+      "link": "https://www.gamespot.com/articles/xbox-game-pass-gets-even-more-new-games-in-july/",
+      "sources": [
+        {
+          "name": "GameSpot",
+          "link": "https://www.gamespot.com/articles/xbox-game-pass-gets-even-more-new-games-in-july/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.7561287886666666,
+      "matches": []
+    },
+    {
+      "title": "The Great Peptide Cash Grab Has Begun",
+      "summary": "The FDA could decide whether to loosen rules around peptide production this week. Some telehealth players are already seeing dollar signs.",
+      "published_utc": "2026-07-21T08:15:49+00:00",
+      "tier": "tech",
+      "link": "https://www.wired.com/story/fda-peptide-decision-telehealth-companies-cashing-in/",
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/story/fda-peptide-decision-telehealth-companies-cashing-in/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.7524621219166665,
+      "matches": []
+    },
+    {
+      "title": "Activision should ditch the Call of Duty movie and bring back its absurd celeb fest where Will Arnett went on a quest to find his own junk",
+      "summary": "Ridley Scott, Will Arnett, Jason Bateman, and Andrew Santino all made Call of Duty shows before.",
+      "published_utc": "2026-07-21T08:15:36+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/games/call-of-duty/activision-should-ditch-the-call-of-duty-movie-and-bring-back-its-absurd-celeb-fest-where-will-arnett-went-on-a-quest-to-find-his-own-junk/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/games/call-of-duty/activision-should-ditch-the-call-of-duty-movie-and-bring-back-its-absurd-celeb-fest-where-will-arnett-went-on-a-quest-to-find-his-own-junk/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.7513787885,
+      "matches": []
+    },
+    {
+      "title": "Captive Portal Detection, (Tue, Jul 21st)",
+      "summary": "Not everything our honeypots detect is an attack. Sometimes it is just \"odd traffic\", and this is one example: Our \"First Seen\" list currently includes \"http://detectportal.firefox.co m/success.txt\" as one of the new URLs detected by our honeypots. The hostname \"detectportal\"\u2026",
+      "published_utc": "2026-07-21T08:14:56+00:00",
+      "tier": "malware",
+      "link": "https://isc.sans.edu/diary/rss/33172",
+      "sources": [
+        {
+          "name": "SANS Internet Storm Center",
+          "link": "https://isc.sans.edu/diary/rss/33172"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.748045454916666,
+      "matches": []
+    },
+    {
+      "title": "MSI Claw 8 EX AI+ CG3EM review",
+      "summary": "The best handheld gaming PC I've ever used, but one whose pricing is a tragedy.",
+      "published_utc": "2026-07-21T08:09:49+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/msi-claw-8-ex-ai-cg3em-review/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/msi-claw-8-ex-ai-cg3em-review/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.722462121416666,
+      "matches": []
+    },
+    {
+      "title": "Redditor uses 'ticking time bomb' vial of gallium to stop their GPU sagging",
+      "summary": "'It was the only thing I found that had almost the perfect height.'",
+      "published_utc": "2026-07-21T08:08:52+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/hardware/graphics-cards/redditor-uses-ticking-time-bomb-vial-of-gallium-to-stop-their-gpu-sagging/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/hardware/graphics-cards/redditor-uses-ticking-time-bomb-vial-of-gallium-to-stop-their-gpu-sagging/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.717712121333333,
+      "matches": []
+    },
+    {
+      "title": "When your vehicle outlives its cloud: What happens next?",
+      "summary": "Automakers love connected vehicles, but support isn't open-ended.",
+      "published_utc": "2026-07-21T08:06:17+00:00",
+      "tier": "tech",
+      "link": "https://arstechnica.com/cars/2026/07/when-your-vehicle-outlives-its-cloud-what-happens-next/",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "link": "https://arstechnica.com/cars/2026/07/when-your-vehicle-outlives-its-cloud-what-happens-next/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.7047954545,
+      "matches": []
+    },
+    {
+      "title": "Watch Spider-Man: Brand New Day Actor Sadie Sink Expertly Avoid The Jean Grey Question",
+      "summary": "Fans have been speculating that the Stranger Things actor may be playing one of the most powerful X-Men",
+      "published_utc": "2026-07-21T08:00:15+00:00",
+      "tier": "gaming",
+      "link": "https://kotaku.com/spider-man-brand-new-day-sadie-sink-jean-grey-ask-question-2000718004",
+      "sources": [
+        {
+          "name": "Kotaku",
+          "link": "https://kotaku.com/spider-man-brand-new-day-sadie-sink-jean-grey-ask-question-2000718004"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.67462878775,
+      "matches": []
+    },
+    {
+      "title": "Taiwan to slow mobile data during national resilience drills",
+      "summary": "The speed of 5G and 4G networks across much of Taiwan will be temporarily reduced to 1 percent of capacity as the island holds annual civilian and military exercises.",
+      "published_utc": "2026-07-21T08:00:00+00:00",
+      "tier": "daily",
+      "link": "https://therecord.media/taiwan-mobile-5g-speed-reductions-han-kuang",
+      "sources": [
+        {
+          "name": "The Record",
+          "link": "https://therecord.media/taiwan-mobile-5g-speed-reductions-han-kuang"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.673378787666667,
+      "matches": []
+    },
+    {
+      "title": "Music streamer Deezer says more than 50% of daily uploads are AI-generated",
+      "summary": "Deezer said more than 90,000 AI-generated tracks were uploaded daily on the platform in June.",
+      "published_utc": "2026-07-21T07:57:42+00:00",
+      "tier": "tech",
+      "link": "https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.661878787583333,
+      "matches": []
+    },
+    {
+      "title": "Bluecore Energy raises $10M to build portable nuclear reactors on barges",
+      "summary": "Maritime nuclear energy startup Bluecore Energy has raised $10 million in a pre-seed funding round led by Slauson & Co.",
+      "published_utc": "2026-07-21T07:50:00+00:00",
+      "tier": "tech",
+      "link": "https://techcrunch.com/2026/07/21/this-uber-alumn-just-raised-a-10m-pre-seed-to-build-portable-nuclear-enegry/",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/21/this-uber-alumn-just-raised-a-10m-pre-seed-to-build-portable-nuclear-enegry/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.623378787416667,
+      "matches": []
+    },
+    {
+      "title": "Apps targeted at US troops contain Chinese and Russian code",
+      "summary": "More than one-eighth of apps analyzed contained foreign code.",
+      "published_utc": "2026-07-21T07:49:38+00:00",
+      "tier": "tech",
+      "link": "https://arstechnica.com/security/2026/07/apps-targeted-at-us-troops-contain-chinese-and-russian-code/",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "link": "https://arstechnica.com/security/2026/07/apps-targeted-at-us-troops-contain-chinese-and-russian-code/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.621545454,
+      "matches": []
+    },
+    {
+      "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
+      "summary": "Zimbra has rolled out fixes to address multiple critical security issues, including a command injection flaw in the Simple Network Management Protocol (SNMP) monitoring component. As many as nine security vulnerabilities have been patched in Zimbra 10.1.20. Topping the list is a\u2026",
+      "published_utc": "2026-07-21T07:48:31+00:00",
+      "tier": "daily",
+      "link": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.6159621204166665,
+      "matches": []
+    },
+    {
+      "title": "I'm very into this Papers, Please-esque puzzle game about identifying traitors to the socialist motherland",
+      "summary": "Hey, it's a living.",
+      "published_utc": "2026-07-21T07:47:41+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/games/puzzle/im-very-into-this-papers-please-esque-puzzle-game-about-identifying-traitors-to-the-socialist-motherland/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/games/puzzle/im-very-into-this-papers-please-esque-puzzle-game-about-identifying-traitors-to-the-socialist-motherland/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.6117954535833325,
+      "matches": []
+    },
+    {
+      "title": "Physical PS5 Game Sales Are Weaker Than You Might Expect",
+      "summary": "In the wake of Sony announcing that it will end support for physical PlayStation game discs in 2028 , new data has come to light that speaks to the growing decline in physical PlayStation game sales in the US. Mat Piscatella of Circana released new data recently that reveals\u2026",
+      "published_utc": "2026-07-21T07:35:15+00:00",
+      "tier": "gaming",
+      "link": "https://www.gamespot.com/articles/physical-ps5-game-sales-are-weaker-than-you-might-expect/",
+      "sources": [
+        {
+          "name": "GameSpot",
+          "link": "https://www.gamespot.com/articles/physical-ps5-game-sales-are-weaker-than-you-might-expect/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.54962878675,
+      "matches": []
+    },
+    {
+      "title": "A Wild Stat About PlayStation Physical Game Sales In The U.S. Shows Why The \u2018No Disc, No Buy\u2019 Backlash Faces Such An Uphill Battle",
+      "summary": "Less than 10 games have sold over 100,000 PlayStation disc copies in the U.S. so far in 2026",
+      "published_utc": "2026-07-21T07:31:38+00:00",
+      "tier": "gaming",
+      "link": "https://kotaku.com/a-wild-stat-about-playstation-physical-game-sales-in-the-u-s-shows-why-the-no-disc-no-buy-backlash-faces-such-an-uphill-battle-2000717977",
+      "sources": [
+        {
+          "name": "Kotaku",
+          "link": "https://kotaku.com/a-wild-stat-about-playstation-physical-game-sales-in-the-u-s-shows-why-the-no-disc-no-buy-backlash-faces-such-an-uphill-battle-2000717977"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.531545453166666,
+      "matches": []
+    },
+    {
+      "title": "A new extortion cocktail: office printers, small ransoms, and BitLocker",
+      "summary": "We cover two recent cases of BitLocker extortion using RDP, MSSQL, RMM tools, web shells, and printers. The story includes TTPs and recommendations.",
+      "published_utc": "2026-07-21T07:30:29+00:00",
+      "tier": "malware",
+      "link": "https://securelist.com/new-extortion-scheme-printers-bitlocker/120718/",
+      "sources": [
+        {
+          "name": "Kaspersky Securelist",
+          "link": "https://securelist.com/new-extortion-scheme-printers-bitlocker/120718/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.525795453083333,
+      "matches": []
+    },
+    {
+      "title": "2027 Kia Seltos first drive gives you plenty of SUV for not much $",
+      "summary": "It starts at just under $25,000, but the hybrid won't arrive until next year.",
+      "published_utc": "2026-07-21T07:30:08+00:00",
+      "tier": "tech",
+      "link": "https://arstechnica.com/cars/2026/07/2027-kia-seltos-first-drive-telluride-vibes-in-a-smaller-package/",
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "link": "https://arstechnica.com/cars/2026/07/2027-kia-seltos-first-drive-telluride-vibes-in-a-smaller-package/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.524045452916667,
+      "matches": []
+    },
+    {
+      "title": "Choose Wisely: AI-Generated Coding Risk Varies, A Lot",
+      "summary": "AI-generated code introduces 15 vulnerabilities on average per codebase, but the actual risk depends on framework pairing more than the model used.",
+      "published_utc": "2026-07-21T07:30:00+00:00",
+      "tier": "daily",
+      "link": "https://www.darkreading.com/application-security/choose-wisely-ai-generated-coding-risk-varies",
+      "sources": [
+        {
+          "name": "Dark Reading",
+          "link": "https://www.darkreading.com/application-security/choose-wisely-ai-generated-coding-risk-varies"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.523378786166666,
+      "matches": []
+    },
+    {
+      "title": "Halliday\u2019s New Smart Glasses Skip the Camera",
+      "summary": "Halliday\u2019s G2 glasses can listen to and summarize your workplace meetings\u2014with no video involved.",
+      "published_utc": "2026-07-21T07:30:00+00:00",
+      "tier": "tech",
+      "link": "https://www.wired.com/story/halliday-new-smart-glasses-skip-the-camera/",
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/story/halliday-new-smart-glasses-skip-the-camera/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.523378785999999,
+      "matches": []
+    },
+    {
+      "title": "Building on Burnout and an underwhelming predecessor are Wreckreation 2\u2019s missions, and so far it\u2019s a promising patch of Paradise",
+      "summary": "\"Wreckreation wasn\u2019t actually an attempt to recreate Burnout,\" former Criterion Games studio head Fiona Sperry says as she and her team reveal their latest arcade racer, Wreckreation 2. \"I think some people thought it was. But it was actually an exploration of freedom and\u2026",
+      "published_utc": "2026-07-21T07:30:00+00:00",
+      "tier": "gaming",
+      "link": "https://www.rockpapershotgun.com/building-on-burnout-and-an-underwhelming-predecessor-are-wreckreation-2s-missions-and-so-far-its-a-promising-patch-of-paradise",
+      "sources": [
+        {
+          "name": "Rock Paper Shotgun",
+          "link": "https://www.rockpapershotgun.com/building-on-burnout-and-an-underwhelming-predecessor-are-wreckreation-2s-missions-and-so-far-its-a-promising-patch-of-paradise"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.523378785666666,
+      "matches": []
+    },
+    {
+      "title": "Glorious GHS InfinitePlay review",
+      "summary": "This versatile set of cans impresses with its hot swappable battery system, but it's just okay otherwise.",
+      "published_utc": "2026-07-21T07:30:00+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/hardware/gaming-headsets/glorious-ghs-infiniteplay-review/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/hardware/gaming-headsets/glorious-ghs-infiniteplay-review/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.523378785583333,
+      "matches": []
+    },
+    {
+      "title": "Splatoon Raiders review",
+      "summary": "This series offshoot is a hectic, often overwhelming delight. Read more",
+      "published_utc": "2026-07-21T07:30:00+00:00",
+      "tier": "gaming",
+      "link": "https://www.eurogamer.net/splatoon-raiders-review",
+      "sources": [
+        {
+          "name": "Eurogamer",
+          "link": "https://www.eurogamer.net/splatoon-raiders-review"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.523378785416666,
+      "matches": []
+    },
+    {
+      "title": "Personal data of all South Korean diplomats believed leaked in \u2018unprecedented\u2019 cyberattack",
+      "summary": "Seo Ji-Eun reports: The personal information of nearly all of South Korea\u2019s diplomatic personnel is presumed to have been compromised in what the Foreign Ministry on Tuesday called an \u201cunprecedented\u201d cyberattack, exposing up to 10,000 administrative and intelligence records. The\u2026",
+      "published_utc": "2026-07-21T07:28:07+00:00",
+      "tier": "breach",
+      "link": "https://databreaches.net/2026/07/21/personal-data-of-all-south-korean-diplomats-believed-leaked-in-unprecedented-cyberattack/?pk_campaign=feed&pk_kwd=personal-data-of-all-south-korean-diplomats-believed-leaked-in-unprecedented-cyberattack",
+      "sources": [
+        {
+          "name": "DataBreaches.net",
+          "link": "https://databreaches.net/2026/07/21/personal-data-of-all-south-korean-diplomats-believed-leaked-in-unprecedented-cyberattack/?pk_campaign=feed&pk_kwd=personal-data-of-all-south-korean-diplomats-believed-leaked-in-unprecedented-cyberattack"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.513962118499999,
+      "matches": []
+    },
+    {
+      "title": "NYSDFS Secures $50 Million Penalty from Swedbank for Withholding Information from Investigators",
+      "summary": "One of the biggest breaches of 2016 was the Panama Papers leak. The law firm at the heart of it, Mossack Fonseca, closed its doors in 2018, unable to recover from all the damage. But while the law firm folded, investigations continued. The New York Department of Financial\u2026",
+      "published_utc": "2026-07-21T07:23:29+00:00",
+      "tier": "breach",
+      "link": "https://databreaches.net/2026/07/21/nysdfs-secures-50-million-penalty-from-swedbank-for-withholding-information-from-investigators/?pk_campaign=feed&pk_kwd=nysdfs-secures-50-million-penalty-from-swedbank-for-withholding-information-from-investigators",
+      "sources": [
+        {
+          "name": "DataBreaches.net",
+          "link": "https://databreaches.net/2026/07/21/nysdfs-secures-50-million-penalty-from-swedbank-for-withholding-information-from-investigators/?pk_campaign=feed&pk_kwd=nysdfs-secures-50-million-penalty-from-swedbank-for-withholding-information-from-investigators"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.4907954515,
+      "matches": []
+    },
+    {
+      "title": "Suno Data Breach had a breach in 2025. Why is it first being known now?",
+      "summary": "Millions here, tens of millions there. Are we all getting breach fatigue by now? Over on HaveIBeenPwned, Troy Hunt reports that Suno experienced a data breach in November 2025, which 404 Media first made public this month: In November 2025, AI music generation tool Suno suffered\u2026",
+      "published_utc": "2026-07-21T07:23:16+00:00",
+      "tier": "breach",
+      "link": "https://databreaches.net/2026/07/21/suno-data-breach-had-a-breach-in-2025-why-is-it-first-being-known-now/?pk_campaign=feed&pk_kwd=suno-data-breach-had-a-breach-in-2025-why-is-it-first-being-known-now",
+      "sources": [
+        {
+          "name": "DataBreaches.net",
+          "link": "https://databreaches.net/2026/07/21/suno-data-breach-had-a-breach-in-2025-why-is-it-first-being-known-now/?pk_campaign=feed&pk_kwd=suno-data-breach-had-a-breach-in-2025-why-is-it-first-being-known-now"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.489712117916667,
+      "matches": []
+    },
+    {
+      "title": "Seoul Notifies 4.62 Million of Ttareungyi Data Breach, Offers Free Passes",
+      "summary": "Kim Eun-bi reports: The Seoul Metropolitan Government will send individual text messages to about 4.62 million citizens affected by a data breach involving membership information for Ttareungyi, the city\u2019s public bike-sharing service, notifying them of the leaked items and\u2026",
+      "published_utc": "2026-07-21T07:23:07+00:00",
+      "tier": "breach",
+      "link": "https://databreaches.net/2026/07/21/seoul-notifies-4-62-million-of-ttareungyi-data-breach-offers-free-passes/?pk_campaign=feed&pk_kwd=seoul-notifies-4-62-million-of-ttareungyi-data-breach-offers-free-passes",
+      "sources": [
+        {
+          "name": "DataBreaches.net",
+          "link": "https://databreaches.net/2026/07/21/seoul-notifies-4-62-million-of-ttareungyi-data-breach-offers-free-passes/?pk_campaign=feed&pk_kwd=seoul-notifies-4-62-million-of-ttareungyi-data-breach-offers-free-passes"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.4889621176666665,
+      "matches": []
+    },
+    {
+      "title": "Empirical Security Raises $25 Million in Series A Funding",
+      "summary": "The startup will use the investment to accelerate the development of its threat prediction and discovery products. The post Empirical Security Raises $25 Million in Series A Funding appeared first on SecurityWeek .",
+      "published_utc": "2026-07-21T07:17:18+00:00",
+      "tier": "daily",
+      "link": "https://www.securityweek.com/empirical-security-raises-25-million-in-series-a-funding/",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "link": "https://www.securityweek.com/empirical-security-raises-25-million-in-series-a-funding/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.45987878425,
+      "matches": []
+    },
+    {
+      "title": "SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity",
+      "summary": "Independently judged and sponsor-neutral, the new awards program honors the people, organizations, and technologies delivering proven impact in industrial cybersecurity; winners to be announced live at the 2026 ICS Cybersecurity Conference in Nashville The post SecurityWeek\u2026",
+      "published_utc": "2026-07-21T07:00:00+00:00",
+      "tier": "daily",
+      "link": "https://www.securityweek.com/securityweek-launches-critical-impact-awards-to-recognize-excellence-in-industrial-cybersecurity/",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "link": "https://www.securityweek.com/securityweek-launches-critical-impact-awards-to-recognize-excellence-in-industrial-cybersecurity/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.3733787839166665,
+      "matches": []
+    },
+    {
+      "title": "Once you see it, you can't unsee it: Hilarity ensues as new DC Comics fighting game is named DCKO",
+      "summary": "A new fighting game has been announced! Making use of the rich DC universe, this upcoming release brings free-to-play 2v2 brawling to mobile. Its name? Um, DCKO. Read more",
+      "published_utc": "2026-07-21T06:57:50+00:00",
+      "tier": "gaming",
+      "link": "https://www.eurogamer.net/warner-bros-dcko-dc-fighting-game-mobile-announced",
+      "sources": [
+        {
+          "name": "Eurogamer",
+          "link": "https://www.eurogamer.net/warner-bros-dcko-dc-fighting-game-mobile-announced"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.3625454505,
+      "matches": []
+    },
+    {
+      "title": "Star Wars: Knights of the Old Republic remake might be re-revealed this year, a new report suggests",
+      "summary": "The on-again, off-again Star Wars: Knights of the Old Republic remake - which was first announced in late 2021 before changing studios - may be re-revealed as soon as this year. Read more",
+      "published_utc": "2026-07-21T06:52:49+00:00",
+      "tier": "gaming",
+      "link": "https://www.eurogamer.net/star-wars-kotor-remake-reveal-rumours",
+      "sources": [
+        {
+          "name": "Eurogamer",
+          "link": "https://www.eurogamer.net/star-wars-kotor-remake-reveal-rumours"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.337462117083333,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-64627",
+      "summary": "Parse Server versions >= 9.0.0 before 9.10.0-alpha.4 and versions before 8.6.85 contain a schema disclosure vulnerability. When the GraphQL API is mounted with public introspection disabled (graphQLPublicIntrospection: false, the default), schema-derived 'Did you mean ...?'\u2026",
+      "published_utc": "2026-07-21T06:49:00.450000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64627",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64627"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.318416282833333,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-60080",
+      "summary": "Use After Free vulnerability in the Rust deserialization logic of Apache Fory. This issue affects Apache Fory from 0.13.0 through 1.3.0. A crafted Fory payload could cause undefined behavior, process crash, or potential memory disclosure. Users are recommended to upgrade to\u2026",
+      "published_utc": "2026-07-21T06:48:58.697000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-60080",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-60080"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.31827019925,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-59842 \u2014 CVSS 3.7 (LOW)",
+      "summary": "A flaw was found in libssh. During server-side GSSAPI key exchange, a client-supplied Curve25519 public key shorter than the expected length is copied without proper length validation, leading to an out-of-bounds heap read. This could allow a remote unauthenticated attacker to\u2026",
+      "published_utc": "2026-07-21T06:48:57.727000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59842",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59842"
+        }
+      ],
+      "is_kev": false,
+      "cvss": 3.7,
+      "score": 4.318189364916666,
+      "matches": []
+    },
+    {
+      "title": "The Download: Chinese AI divides the White House, and a record copyright payout",
+      "summary": "This is today\u2019s edition of The Download, our weekday newsletter that provides a daily dose of what\u2019s going on in the world of technology. China\u2019s AI models have Trump\u2019s AI world at war with itself Last weekend, several current and former advisers to President Donald Trump on AI\u2026",
+      "published_utc": "2026-07-21T06:40:00+00:00",
+      "tier": "tech",
+      "link": "https://www.technologyreview.com/2026/07/21/1140685/the-download-chinese-ai-divides-white-house-anthropic-copyright-settlement/",
+      "sources": [
+        {
+          "name": "MIT Technology Review",
+          "link": "https://www.technologyreview.com/2026/07/21/1140685/the-download-chinese-ai-divides-white-house-anthropic-copyright-settlement/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.273378780833333,
+      "matches": []
+    },
+    {
+      "title": "Kenya probes hack of president's website after bitcoin ransom demand",
+      "summary": "The website was hacked on Saturday, when its homepage was replaced with a message displaying a cryptocurrency wallet address and threatening to publish unspecified information about President William Ruto unless the ransom was paid.",
+      "published_utc": "2026-07-21T06:38:00+00:00",
+      "tier": "daily",
+      "link": "https://therecord.media/kenya-probes-hack-of-presidents-website-after-ransom-demand",
+      "sources": [
+        {
+          "name": "The Record",
+          "link": "https://therecord.media/kenya-probes-hack-of-presidents-website-after-ransom-demand"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.263378780666667,
+      "matches": []
+    },
+    {
+      "title": "\"Enjoy your last day in a future that works for everyone but you\": I adore the demo for Future? No Thanks, an open world comedy about a boomer trapped in leftwing paradise",
+      "summary": "Future? No Thanks! is a jolly and acerbic open world city game from seasoned satirist Paulo \"Molleindustria\" Perdicini. It's about a bitter old boomer trying to enjoy his final day in an ecosocialist paradise. There's a demo on Steam that gives you 30 minutes access to a realm\u2026",
+      "published_utc": "2026-07-21T06:35:00+00:00",
+      "tier": "gaming",
+      "link": "https://www.rockpapershotgun.com/enjoy-your-last-day-in-a-future-that-works-for-everyone-but-you-i-adore-the-demo-for-future-no-thanks-an-open-world-comedy-about-a-boomer-trapped-in-leftwing-paradise",
+      "sources": [
+        {
+          "name": "Rock Paper Shotgun",
+          "link": "https://www.rockpapershotgun.com/enjoy-your-last-day-in-a-future-that-works-for-everyone-but-you-i-adore-the-demo-for-future-no-thanks-an-open-world-comedy-about-a-boomer-trapped-in-leftwing-paradise"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.248378780416666,
+      "matches": []
+    },
+    {
+      "title": "8 Best Smartwatches (2026): Apple, Google, and Hybrid Watches",
+      "summary": "These WIRED-tested wearables reduce your reliance on a phone while keeping you connected.",
+      "published_utc": "2026-07-21T06:32:00+00:00",
+      "tier": "tech",
+      "link": "https://www.wired.com/gallery/best-smartwatches/",
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/gallery/best-smartwatches/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.233378780333333,
+      "matches": []
+    },
+    {
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2021-27137 DD-WRT Stack-Based Buffer Overflow Vulnerability CVE-2026-0770 Langflow Inclusion of Functionality from Untrusted Control\u2026",
+      "published_utc": "2026-07-21T06:30:00+00:00",
+      "tier": "cve",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "sources": [
+        {
+          "name": "CISA Cybersecurity Advisories",
+          "link": "https://www.cisa.gov/news-events/alerts/2026/07/21/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.2233787800833325,
+      "matches": []
+    },
+    {
+      "title": "GitLab Brings Carbon Awareness to CI/CD to Measure the Environmental Cost of Software Delivery",
+      "summary": "GitLab has introduced a new approach to Green DevOps, demonstrating how software engineering teams can measure the carbon emissions generated by their CI/CD pipelines. By Craig Risi",
+      "published_utc": "2026-07-21T06:30:00+00:00",
+      "tier": "dev",
+      "link": "https://www.infoq.com/news/2026/07/gitlab-carbon-awareness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sources": [
+        {
+          "name": "InfoQ",
+          "link": "https://www.infoq.com/news/2026/07/gitlab-carbon-awareness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.223378779916667,
+      "matches": []
+    },
+    {
+      "title": "New ClickLock Stealer locks your Mac until you hand over your password",
+      "summary": "A new macOS infostealer tricks victims into revealing their system password and installs a persistent backdoor for future access.",
+      "published_utc": "2026-07-21T06:29:31+00:00",
+      "tier": "malware",
+      "link": "https://www.malwarebytes.com/blog/news/2026/07/new-clicklock-stealer-locks-your-mac-until-you-hand-over-your-password",
+      "sources": [
+        {
+          "name": "Malwarebytes Labs",
+          "link": "https://www.malwarebytes.com/blog/news/2026/07/new-clicklock-stealer-locks-your-mac-until-you-hand-over-your-password"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.220962113166667,
+      "matches": []
+    },
+    {
+      "title": "Tom Clancy's Ghost Recon Wildlands appears to be getting a PS5 and Xbox Series X/S Definitive Edition, but is it a remaster or a bog standard re-release?",
+      "summary": "If you've been itching to replay Tom Clancy's Ghost Recon Wildlands, for some reason, you may soon have a reason to. The open-world co-op shooter will be 10 years old next March and it looks like Ubisoft is celebrating the anniversary early. Read more",
+      "published_utc": "2026-07-21T06:28:54+00:00",
+      "tier": "gaming",
+      "link": "https://www.eurogamer.net/ghost-recon-wildlands-definitive-edition-leak",
+      "sources": [
+        {
+          "name": "Eurogamer",
+          "link": "https://www.eurogamer.net/ghost-recon-wildlands-definitive-edition-leak"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.217878779666667,
+      "matches": []
+    },
+    {
+      "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
+      "summary": "An Android app that can draw over other windows and write to shared storage can slip instructions to the AI agent driving that phone, in text no human eye will ever see. Two more steps, and the same app is running commands on the PC driving the agent. Researchers demonstrated\u2026",
+      "published_utc": "2026-07-21T06:28:00+00:00",
+      "tier": "daily",
+      "link": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.213378779416667,
+      "matches": []
+    },
+    {
+      "title": "New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication",
+      "summary": "Part of a larger toolkit, HollowGraph uses a compromised 365 account\u2019s calendar as a two-way dead-drop. The post New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication appeared first on SecurityWeek .",
+      "published_utc": "2026-07-21T06:25:28+00:00",
+      "tier": "daily",
+      "link": "https://www.securityweek.com/new-hollowgraph-malware-abuses-microsoft-365-calendar-for-cc-communication/",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "link": "https://www.securityweek.com/new-hollowgraph-malware-abuses-microsoft-365-calendar-for-cc-communication/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.200712112583333,
+      "matches": []
+    },
+    {
+      "title": "Nintendo Says It Doesn\u2019t Owe Customers Anything After Increasing Switch Prices For Tariffs It Didn\u2019t Have To Pay",
+      "summary": "The Japanese company has filed for a U.S.-based class action lawsuit to be dismissed",
+      "published_utc": "2026-07-21T06:25:04+00:00",
+      "tier": "gaming",
+      "link": "https://kotaku.com/nintendo-switch-2-price-class-action-lawsuit-trump-tariffs-2000717971",
+      "sources": [
+        {
+          "name": "Kotaku",
+          "link": "https://kotaku.com/nintendo-switch-2-price-class-action-lawsuit-trump-tariffs-2000717971"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.198712112333333,
+      "matches": []
+    },
+    {
+      "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
+      "summary": "Every patch is a confession. The moment a vendor ships a security fix, the diff between the old code and the new code tells anyone watching exactly what was broken and where. Turn that diff back into a working exploit, and you can hit every system that hasn't updated yet. This\u2026",
+      "published_utc": "2026-07-21T06:12:23+00:00",
+      "tier": "daily",
+      "link": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.1352954455,
+      "matches": []
+    },
+    {
+      "title": "\"The concept of [Xbox] Game Pass was good\" despite its eventual faceplant now contributing to mass job losses, reckons Forza Horizon 5 director",
+      "summary": "Forza Horizon 5 creative director Mike Brown, who's currently working on open-world racer Clutch after departing Microsoft-owned Playground Games in 2023, has offered his perspective on Xbox's current layoff-heavy pivot in direction. Despite the Xbox Game Pass push of former\u2026",
+      "published_utc": "2026-07-21T06:04:39+00:00",
+      "tier": "gaming",
+      "link": "https://www.rockpapershotgun.com/the-concept-of-xbox-game-pass-was-good-despite-its-eventual-faceplant-now-contributing-to-mass-job-losses-reckons-forza-horizon-5-director",
+      "sources": [
+        {
+          "name": "Rock Paper Shotgun",
+          "link": "https://www.rockpapershotgun.com/the-concept-of-xbox-game-pass-was-good-despite-its-eventual-faceplant-now-contributing-to-mass-job-losses-reckons-forza-horizon-5-director"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.0966287784999995,
+      "matches": []
+    },
+    {
+      "title": "Don\u2019t trust that \u201cFBI agent\u201d in your DMs",
+      "summary": "The FBI is warning that fraudsters are using fake IC3 accounts and direct messages to target people who've already been scammed.",
+      "published_utc": "2026-07-21T06:03:35+00:00",
+      "tier": "malware",
+      "link": "https://www.malwarebytes.com/blog/news/2026/07/dont-trust-that-fbi-agent-in-your-dms",
+      "sources": [
+        {
+          "name": "Malwarebytes Labs",
+          "link": "https://www.malwarebytes.com/blog/news/2026/07/dont-trust-that-fbi-agent-in-your-dms"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.091295444999999,
+      "matches": []
+    },
+    {
+      "title": "The Biggest Critics Of Xbox Game Pass May Be Inside Xbox",
+      "summary": "Xbox Game Pass used to be hailed as the \"best deal\" in gaming, but it started to lose its luster following a steep subscription price increase several months back--that is still higher than what it used to be even after a decrease --and shifting membership tiers. Some of Xbox's\u2026",
+      "published_utc": "2026-07-21T06:01:16+00:00",
+      "tier": "gaming",
+      "link": "https://www.gamespot.com/articles/the-biggest-critics-of-xbox-game-pass-may-be-inside-xbox/",
+      "sources": [
+        {
+          "name": "GameSpot",
+          "link": "https://www.gamespot.com/articles/the-biggest-critics-of-xbox-game-pass-may-be-inside-xbox/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.079712111416667,
+      "matches": []
+    },
+    {
+      "title": "CISO Conversations: Andreas Gaetje \u2013 From Economics to CISO at K\u00f6rber AG",
+      "summary": "Gaetje\u2019s story shows that you don\u2019t need to be a \u2018deep bit-crawler\u2019 to become a Chief Information Security Officer. The post CISO Conversations: Andreas Gaetje \u2013 From Economics to CISO at K\u00f6rber AG appeared first on SecurityWeek .",
+      "published_utc": "2026-07-21T06:00:00+00:00",
+      "tier": "daily",
+      "link": "https://www.securityweek.com/ciso-conversations-andreas-gaetje-from-economics-to-ciso-at-korber-ag/",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "link": "https://www.securityweek.com/ciso-conversations-andreas-gaetje-from-economics-to-ciso-at-korber-ag/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.073378777833334,
+      "matches": []
+    },
+    {
+      "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
+      "summary": "A cloud tenant using nothing but ordinary GPU access can push a data center's power draw up and down fast enough to threaten the grid it runs on, with no exploit and no break-in. That is the claim behind Bit2Watt, described by three Zhejiang University researchers in a paper\u2026",
+      "published_utc": "2026-07-21T05:54:50+00:00",
+      "tier": "daily",
+      "link": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "link": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 4.04754544425,
+      "matches": []
+    },
+    {
+      "title": "Est\u00e9e Lauder Discloses Impact From Oracle EBS Zero-Day Hack",
+      "summary": "Hackers exfiltrated personal, financial, and health information from the company\u2019s Oracle EBS instance in August 2025. The post Est\u00e9e Lauder Discloses Impact From Oracle EBS Zero-Day Hack appeared first on SecurityWeek .",
+      "published_utc": "2026-07-21T05:42:33+00:00",
+      "tier": "daily",
+      "link": "https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "link": "https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.986128777166666,
+      "matches": []
+    },
+    {
+      "title": "Nvidia finally reveals what controls devs actually have for DLSS 5, and don't worry folks, there are TWO main sliders to control the AI filter",
+      "summary": "The company is, however, 'building more' controls.",
+      "published_utc": "2026-07-21T05:41:37+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/hardware/nvidia-finally-reveals-what-controls-devs-actually-have-for-dlss-5-and-dont-worry-folks-there-are-two-main-sliders-to-control-the-ai-filter/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/hardware/nvidia-finally-reveals-what-controls-devs-actually-have-for-dlss-5-and-dont-worry-folks-there-are-two-main-sliders-to-control-the-ai-filter/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.981462110333333,
+      "matches": []
+    },
+    {
+      "title": "007 First Light's secret best character was a perfect way for IO Interactive to celebrate British writing and \"restrained emotion\"",
+      "summary": "IO Interactive has shared more development insight about arguably the stand-out character in 007 First Light: James Bond's mentor figure, John Greenway. This is the character played brilliantly by Walking Dead and Line of Duty actor Lennie James - a character as welcoming as a\u2026",
+      "published_utc": "2026-07-21T05:39:04+00:00",
+      "tier": "gaming",
+      "link": "https://www.eurogamer.net/007-first-light-britishness-john-greenway",
+      "sources": [
+        {
+          "name": "Eurogamer",
+          "link": "https://www.eurogamer.net/007-first-light-britishness-john-greenway"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.968712110083333,
+      "matches": []
+    },
+    {
+      "title": "MIT to Become Hotbed of AI Video Surveillance",
+      "summary": "It\u2019s a lot : According to information obtained by The Tech , MIT is spending over $3 million on more than 500 AI surveillance cameras in academic buildings, residence halls, and outdoor areas along Memorial Drive. Installation of the new cameras, along with the wiring and\u2026",
+      "published_utc": "2026-07-21T05:37:13+00:00",
+      "tier": "daily",
+      "link": "https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html",
+      "sources": [
+        {
+          "name": "Schneier on Security",
+          "link": "https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.959462109833333,
+      "matches": []
+    },
+    {
+      "title": "US seizes over 1,000 websites in FIFA World Cup piracy crackdown",
+      "summary": "The U.S. Justice Department has seized more than 1,000 websites and blocked 1,970 domains used to stream FIFA World Cup 2026 matches without authorization. [...]",
+      "published_utc": "2026-07-21T05:37:07+00:00",
+      "tier": "daily",
+      "link": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/",
+      "sources": [
+        {
+          "name": "Bleeping Computer",
+          "link": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.9589621096666665,
+      "matches": []
+    },
+    {
+      "title": "The Best Smart Home Accessories to Boost Your Curb Appeal (2026)",
+      "summary": "These locks, lights, and other smart home upgrades let you add automation without messing up your home\u2019s vibe.",
+      "published_utc": "2026-07-21T05:32:00+00:00",
+      "tier": "tech",
+      "link": "https://www.wired.com/story/smart-home-curb-appeal-looks/",
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/story/smart-home-curb-appeal-looks/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.9333787761666668,
+      "matches": []
+    },
+    {
+      "title": "After 12 Years, Hexcells Is Still The Best Logic Puzzle Game Ever Made",
+      "summary": "The Hexcells trilogy has yet to be beaten",
+      "published_utc": "2026-07-21T05:30:14+00:00",
+      "tier": "gaming",
+      "link": "https://kotaku.com/hexcells-logic-puzzle-game-matthew-brown-best-ever-steam-2000717605",
+      "sources": [
+        {
+          "name": "Kotaku",
+          "link": "https://kotaku.com/hexcells-logic-puzzle-game-matthew-brown-best-ever-steam-2000717605"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.9245454427500004,
+      "matches": []
+    },
+    {
+      "title": "Abdul El-Sayed Is an Epidemiologist Running for Senate. His State Is a Public Health Disaster",
+      "summary": "Michigan has been at the epicenter of the wildfire smoke and explosive diarrhea outbreaks. The progressive Democrat talks to WIRED about how he would tackle the forces behind them if he\u2019s elected.",
+      "published_utc": "2026-07-21T05:30:00+00:00",
+      "tier": "tech",
+      "link": "https://www.wired.com/story/abdul-el-sayed-michigan-is-public-health-disaster/",
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/story/abdul-el-sayed-michigan-is-public-health-disaster/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.923378775833333,
+      "matches": []
+    },
+    {
+      "title": "Developer creates a password-cracking Game Boy Advance that is 'about thirty million times slower than a modern cracking rig'",
+      "summary": "Why? Why not?",
+      "published_utc": "2026-07-21T05:20:19+00:00",
+      "tier": "gaming",
+      "link": "https://www.pcgamer.com/hardware/developer-creates-a-password-cracking-game-boy-advance-that-is-about-thirty-million-times-slower-than-a-modern-cracking-rig/",
+      "sources": [
+        {
+          "name": "PC Gamer",
+          "link": "https://www.pcgamer.com/hardware/developer-creates-a-password-cracking-game-boy-advance-that-is-about-thirty-million-times-slower-than-a-modern-cracking-rig/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.8749621090833335,
+      "matches": []
+    },
+    {
+      "title": "The next major moment for Marathon arrives today with a new update and the debut of its PvE mode, Vault Breaker",
+      "summary": "Bungie has shown off Vault Breaker in a new gameplay trailer. This is Marathon's experimental, time-limited PvE mode, which arrives today in Season 2's mid-season update. Vault Breaker is a roguelite mode that exists separately from the normal modes. In other words, it's not\u2026",
+      "published_utc": "2026-07-21T05:15:16+00:00",
+      "tier": "gaming",
+      "link": "https://www.eurogamer.net/marathon-vault-breaker-pve-mode-details-gameplay",
+      "sources": [
+        {
+          "name": "Eurogamer",
+          "link": "https://www.eurogamer.net/marathon-vault-breaker-pve-mode-details-gameplay"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.849712108833333,
+      "matches": []
+    },
+    {
+      "title": "Advancing next-gen AI with materials science innovation",
+      "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of innovation that makes them possible: advanced materials. Every\u2026",
+      "published_utc": "2026-07-21T05:07:34+00:00",
+      "tier": "tech",
+      "link": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
+      "sources": [
+        {
+          "name": "MIT Technology Review",
+          "link": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.811212108583333,
+      "matches": []
+    },
+    {
+      "title": "Xbox admits its game exclusivity strategy isn't \"obvious\", but insists Gears of War and Clockwork Revolution won't be the only non-PlayStation games",
+      "summary": "Another day, another update on what's happening over at Xbox after last month's showcase and the subsequent cuts of 3,200 jobs and studio divestments . The matter at hand today: console exclusives, and based on past comments by Xbox , we don't really know what to expect or\u2026",
+      "published_utc": "2026-07-21T05:05:13+00:00",
+      "tier": "gaming",
+      "link": "https://www.eurogamer.net/xbox-leadership-on-future-exclusives",
+      "sources": [
+        {
+          "name": "Eurogamer",
+          "link": "https://www.eurogamer.net/xbox-leadership-on-future-exclusives"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.7994621083333326,
+      "matches": []
+    },
+    {
+      "title": "\u2018It\u2019s a Modern-Day Draft\u2019: Why Stanford Students Walked Out on Sundar Pichai\u2019s Commencement Speech",
+      "summary": "Last month, more than a hundred Stanford students left their own graduation to protest Google\u2019s military contracts and deals with ICE. Two organizers, Amanda Campos and Eva Jones, tell us why.",
+      "published_utc": "2026-07-21T05:00:00+00:00",
+      "tier": "tech",
+      "link": "https://www.wired.com/story/big-interview-stanford-students-booing-sundar-pichai/",
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/story/big-interview-stanford-students-booing-sundar-pichai/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.7733787748333327,
+      "matches": []
+    },
+    {
+      "title": "Presentation: Engineering AI for Creativity and Curiosity on Mobile",
+      "summary": "Bhavuk Jain discusses translating foundational AI into scalable mobile products. He shares the engineering challenges behind AI Wallpapers and Circle to Search, detailing how to implement robust runtime guardrails, fine-tuning, and seamless OS integration. For engineering\u2026",
+      "published_utc": "2026-07-21T04:50:00+00:00",
+      "tier": "dev",
+      "link": "https://www.infoq.com/presentations/ai-mobile/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sources": [
+        {
+          "name": "InfoQ",
+          "link": "https://www.infoq.com/presentations/ai-mobile/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.7233787745833333,
+      "matches": []
+    },
+    {
+      "title": "Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data",
+      "summary": "A security researcher discovered a broken access control vulnerability in Meta\u2019s support infrastructure. The post Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data appeared first on SecurityWeek .",
+      "published_utc": "2026-07-21T04:49:21+00:00",
+      "tier": "daily",
+      "link": "https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "link": "https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.7201287743333333,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-62415",
+      "summary": "The Joomla extension Membership Pro prior version 4.6.2 did by default allow unauthenticated users to upload media assets.",
+      "published_utc": "2026-07-21T04:46:24.727000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-62415",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-62415"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.705439357083333,
+      "matches": []
+    },
+    {
+      "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
+      "summary": "The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]",
+      "published_utc": "2026-07-21T04:42:24+00:00",
+      "tier": "daily",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
+      "sources": [
+        {
+          "name": "Bleeping Computer",
+          "link": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.6853787736666668,
+      "matches": []
+    },
+    {
+      "title": "Call of Duty: Modern Warfare 4's open beta is set for next month, and will offer a chance to take on the fearsome new slaying slab mode",
+      "summary": "Call of Duty: Modern Warfare 4, this year's Activision shooter about military markspeople (who occasionally look like Beavis and Butt-Head ) sliding around with SMGs and shouting 10-4 after checking their corners, is set for pre-release beta testing in August. There are two\u2026",
+      "published_utc": "2026-07-21T04:31:00+00:00",
+      "tier": "gaming",
+      "link": "https://www.rockpapershotgun.com/call-of-duty-modern-warfare-4s-open-beta-is-set-for-next-month-and-will-offer-a-chance-to-take-on-the-new-fearsome-slaying-slab-mode",
+      "sources": [
+        {
+          "name": "Rock Paper Shotgun",
+          "link": "https://www.rockpapershotgun.com/call-of-duty-modern-warfare-4s-open-beta-is-set-for-next-month-and-will-offer-a-chance-to-take-on-the-new-fearsome-slaying-slab-mode"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.6283787734166664,
+      "matches": []
+    },
+    {
+      "title": "Gritt exits stealth with $32 million for robots to build solar plants \u2014 then, everything else",
+      "summary": "Gritt is coming out of stealth with $34 million and plans to automate the hardest tasks on construction sites.",
+      "published_utc": "2026-07-21T04:30:00+00:00",
+      "tier": "tech",
+      "link": "https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.62337877325,
+      "matches": []
+    },
+    {
+      "title": "Weaponizing And Defending The React Flight Protocol: Deserialization Sinks In RSCs",
+      "summary": "While React Server Components rely on the custom Flight protocol to stream interactive UIs, this same mechanism introduces powerful deserialization sinks that attackers can exploit. Durgesh Pawar breaks down the mechanics behind the CVSS 10.0 \u201cReact2Shell\u201d vulnerability to show\u2026",
+      "published_utc": "2026-07-21T04:30:00+00:00",
+      "tier": "dev",
+      "link": "https://smashingmagazine.com/2026/07/weaponizing-defending-react-flight-protocol/",
+      "sources": [
+        {
+          "name": "Smashing Magazine",
+          "link": "https://smashingmagazine.com/2026/07/weaponizing-defending-react-flight-protocol/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.6233787729999998,
+      "matches": []
+    },
+    {
+      "title": "Yelp Unifies ML Model Training with Training Orchestrator",
+      "summary": "Yelp has launched Training Orchestrator. This new internal framework replaces individual team Spark training scripts. Now, it uses a configuration-driven, DAG-based execution model. By Claudio Masolo",
+      "published_utc": "2026-07-21T04:30:00+00:00",
+      "tier": "dev",
+      "link": "https://www.infoq.com/news/2026/07/yelp-ai-model-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "sources": [
+        {
+          "name": "InfoQ",
+          "link": "https://www.infoq.com/news/2026/07/yelp-ai-model-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.623378772833333,
+      "matches": []
+    },
+    {
+      "title": "Stop Saying Kids Can\u2019t Read",
+      "summary": "Everyone is talking about the reading crisis. But inside the \u201cMississippi Miracle,\u201d it\u2019s all about comprehension.",
+      "published_utc": "2026-07-21T04:30:00+00:00",
+      "tier": "tech",
+      "link": "https://www.wired.com/story/mississippi-state-testing-reading-comprehension-literacy/",
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/story/mississippi-state-testing-reading-comprehension-literacy/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.623378772666667,
+      "matches": []
+    },
+    {
+      "title": "A Device Hidden in Cars Across the US Leaves Them Vulnerable to Hacking and Paralysis. Patch It Now",
+      "summary": "Dealerships installed alarms in millions of vehicles\u2014and left them in even if the buyer didn\u2019t want them. Now researchers warn they can be hacked to unlock, track, and disable cars.",
+      "published_utc": "2026-07-21T04:30:00+00:00",
+      "tier": "tech",
+      "link": "https://www.wired.com/story/a-device-hidden-in-cars-across-the-us-leaves-them-vulnerable-to-hacking-and-paralysis-patch-it-now/",
+      "sources": [
+        {
+          "name": "Wired",
+          "link": "https://www.wired.com/story/a-device-hidden-in-cars-across-the-us-leaves-them-vulnerable-to-hacking-and-paralysis-patch-it-now/"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.6233787725,
+      "matches": []
+    },
+    {
+      "title": "AI nudify apps spark legal scrutiny of Apple and Google\u2019s profits",
+      "summary": "Instead of fighting over what app stores host, the San Francisco City Attorney is targeting how they make money from AI nudify apps.",
+      "published_utc": "2026-07-21T04:18:44+00:00",
+      "tier": "malware",
+      "link": "https://www.malwarebytes.com/blog/privacy/2026/07/ai-nudify-apps-spark-legal-scrutiny-of-apple-and-googles-profits",
+      "sources": [
+        {
+          "name": "Malwarebytes Labs",
+          "link": "https://www.malwarebytes.com/blog/privacy/2026/07/ai-nudify-apps-spark-legal-scrutiny-of-apple-and-googles-profits"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.567045438916667,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-8593",
+      "summary": "Improper permission enforcement in Checkmk versions 2.5.0 before 2.5.0p9, 2.4.0 before 2.4.0p34, 2.3.0 before 2.3.0p49, and 2.2.0 (EOL) allows users without permissions to view and modify BI packs and rules",
+      "published_utc": "2026-07-21T02:46:35.013000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-8593",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-8593"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 3.1062965210833338,
+      "matches": []
+    },
+    {
+      "title": "CVE-2023-37507",
+      "summary": "HCL DevOps Plan is susceptible to an information disclosure that can allow an attacker to focus their attacks based upon the information revealed.",
+      "published_utc": "2026-07-21T00:46:27.113000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-37507",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-37507"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 2.5056381843333337,
+      "matches": []
+    },
+    {
+      "title": "CVE-2023-37508",
+      "summary": "HCL DevOps Plan is potentially susceptible to Cross-Site Scripting (XSS) which could allow an attacker to exploit this vulnerability if certain browser weaknesses are present.",
+      "published_utc": "2026-07-20T23:46:33.263000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-37508",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-37508"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 2.206150683083333,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-15904",
+      "summary": "Use after free in Ozone in Google Chrome on Linux prior to 150.0.7871.128 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "published_utc": "2026-07-20T17:46:56.190000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15904",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15904"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 0.4080612631666664,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-15903",
+      "summary": "Out of bounds read and write in V8 in Google Chrome prior to 150.0.7871.128 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "published_utc": "2026-07-20T17:46:56.093000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15903",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15903"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 0.40805317966666693,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-15902",
+      "summary": "Use after free in Cast in Google Chrome prior to 150.0.7871.128 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "published_utc": "2026-07-20T17:46:55.983000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15902",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15902"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 0.40804401291666675,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-15901",
+      "summary": "Use after free in Network in Google Chrome prior to 150.0.7871.128 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)",
+      "published_utc": "2026-07-20T17:46:55.877000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15901",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15901"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 0.40803517949999984,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-15900",
+      "summary": "Use after free in GPU in Google Chrome on Android prior to 150.0.7871.128 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Critical)",
+      "published_utc": "2026-07-20T17:46:55.763000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15900",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15900"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 0.4080256793333326,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-15899",
+      "summary": "Use after free in CameraCapture in Google Chrome on Mac prior to 150.0.7871.128 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Critical)",
+      "published_utc": "2026-07-20T17:46:55.637000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15899",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15899"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 0.4080151792499997,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-57495",
+      "summary": "AgenticMail gives AI agents real email addresses and phone numbers. In @agenticmail/claudecode prior to version 0.2.39, @agenticmail/codex prior to version 0.1.33, @agenticmail/core prior to version 0.9.43, and @agenticmail/openclaw prior to version 0.5.71, two inbound-mail\u2026",
+      "published_utc": "2026-07-20T16:47:17.107000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-57495",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-57495"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 0.10980434483333354,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-57494",
+      "summary": "AgenticMail gives AI agents real email addresses and phone numbers. In @agenticmail/api prior to version 0.9.64, a low-privileged authenticated AgenticMail agent can enumerate another agent's pending/claimed tasks by supplying the target agent name to `GET\u2026",
+      "published_utc": "2026-07-20T16:47:16.970000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-57494",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-57494"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 0.10979292799999989,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-47134",
+      "summary": "ClearanceKit intercepts file-system access events on macOS and enforces per-process access policies. The ECDSA private key used to sign the on-disk policy database (`/Library/Application Support/clearancekit/store.db`) is stored in the macOS System Keychain. The key was created\u2026",
+      "published_utc": "2026-07-20T16:47:15.133000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-47134",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-47134"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 0.10963984283333303,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-47133",
+      "summary": "ClearanceKit intercepts file-system access events on macOS and enforces per-process access policies. Prior to version 5.0.10, each table in the on-disk SQLite policy store (`/Library/Application Support/clearancekit/store.db`) is verified using an ECDSA signature stored in the\u2026",
+      "published_utc": "2026-07-20T16:47:14.997000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-47133",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-47133"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 0.10962850933333321,
+      "matches": []
+    },
+    {
+      "title": "CVE-2026-44510",
+      "summary": "Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2026-43620. Reason: This candidate is a duplicate of CVE-2026-43620. Notes: All CVE users should reference CVE-2026-43620 instead of this candidate.",
+      "published_utc": "2026-07-20T16:47:13.957000+00:00",
+      "tier": "cve",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-44510",
+      "sources": [
+        {
+          "name": "NVD Recently Published CVEs",
+          "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-44510"
+        }
+      ],
+      "is_kev": false,
+      "cvss": null,
+      "score": 0.10954184233333315,
+      "matches": []
+    }
+  ],
+  "errors": [
+    "IGN: 404 Client Error: Not Found for url: https://www.ign.com/rss"
+  ]
+}

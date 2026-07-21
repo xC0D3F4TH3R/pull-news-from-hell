@@ -1,0 +1,69 @@
+# Copy this file to config.yaml and edit. security_news_aggregator.py reads
+# config.yaml automatically if present; every value here is optional and
+# falls back to a sane default if omitted.
+
+# How far back to look on a normal run.
+hours: 24
+
+# Which source tiers to include. Remove any you don't want.
+tiers: [daily, cve, malware, breach, dev, tech, gaming]
+
+# Anything matching these (case-insensitive, checked against title+summary)
+# gets flagged [MATCH], bumped into the Priority section, and boosts that
+# story's score. Add your company name, vendors you run, technologies you
+# track, etc.
+keywords:
+  - fortinet
+  - vmware
+  - ransomware
+
+output_dir: reports
+state_file: state/state.json
+
+formats:
+  markdown: true
+  html: true
+  json: true       # keep this on — --search relies on the JSON files
+
+dedup:
+  enabled: true
+  similarity_threshold: 0.82   # 0-1, higher = stricter match required to merge
+  window_hours: 48             # only merge stories published within this many hours of each other
+
+top_count: 15         # how many stories appear in the "Priority & Trending" section
+no_repeat: true        # once a story has appeared in a report, don't show it again in a later run
+seen_retention_days: 21
+
+# --- Email digest ---
+# The password is NOT stored here — set it as an environment variable named
+# whatever you put in password_env, e.g.:
+#   export SECNEWS_SMTP_PASSWORD="your-app-password"
+# For Gmail: use an "App Password" (myaccount.google.com/apppasswords),
+# not your normal password — Gmail blocks plain password SMTP login.
+email:
+  enabled: false
+  smtp_host: smtp.gmail.com
+  smtp_port: 587
+  smtp_user: you@gmail.com
+  password_env: SECNEWS_SMTP_PASSWORD
+  from_addr: you@gmail.com
+  to_addrs:
+    - you@gmail.com
+  use_tls: true
+
+# --- Slack / Discord webhook ---
+# Set the URL via environment variable (safer than committing it to this
+# file), e.g.:
+#   export SECNEWS_WEBHOOK_URL="https://hooks.slack.com/services/..."
+# or paste it directly into `url:` below if this file isn't checked into git.
+webhook:
+  enabled: false
+  url_env: SECNEWS_WEBHOOK_URL
+  url: ""
+
+# --- Daemon mode (python3 security_news_aggregator.py --daemon) ---
+# Runs forever and fires automatically — no cron needed if you'd rather
+# just leave this process running (e.g. under systemd, see systemd/ folder).
+daemon:
+  run_at: "07:00"        # 24h local time, fires once daily
+  interval_hours: null    # OR set this instead (e.g. 6) to run every N hours starting now

@@ -1,0 +1,19 @@
+[Unit]
+Description=News & Threat-Intel Aggregator (daemon mode)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# EDIT these two paths for your machine:
+WorkingDirectory=/full/path/to/secnews
+ExecStart=/usr/bin/python3 /full/path/to/secnews/security_news_aggregator.py --daemon
+Restart=on-failure
+RestartSec=60
+# If you use email/webhook secrets via environment variables instead of a
+# .env-style file, uncomment and fill these in (or use EnvironmentFile=):
+# Environment=SECNEWS_SMTP_PASSWORD=your-app-password
+# Environment=SECNEWS_WEBHOOK_URL=https://hooks.slack.com/services/...
+
+[Install]
+WantedBy=multi-user.target
